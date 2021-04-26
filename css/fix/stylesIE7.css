@@ -1,0 +1,100 @@
+﻿body
+{
+    line-height: 1.2;
+}
+.captha-img, .captcha-txt,
+.cart-modal .cart-list .p-img, 
+.voting-variant .result-vote .vote-progressbar, 
+.cart-modal .cart-list .p-info,
+.feedback-addons, 
+ul.form-vr  li div.param-value,
+ul.form-vr li div.param-name, 
+ul.list-stretch li, 
+ul.news-list div.news-img, 
+ul.news-list div.news-info, 
+.brend-left, 
+.brend-right, 
+.brends-foot, 
+.brends-abc,  
+.tree .tree-item, 
+.tree .tree-item-selected, 
+.tree .tree-item-split, 
+.tree-submenu .tree-submenu-column, 
+.tabs-vr .tabs-headers span.tab-inside, 
+.tabs-vr .tabs-headers, 
+.tree-submenu .tree-submenu-category, 
+.tree-submenu .tree-submenu-brand, 
+.pv-photo, 
+.pv-tile .pv-item, 
+.pv-list .pv-item .pv-info,
+.pv-list .pv-item .pv-photo-c, 
+.ui-stars-star, 
+.ui-stars-cancel, 
+.container-special .block li.p-block, 
+.pv-list .pv-photo-c, 
+.tabs-hr .tabs-headers div.tab-header, 
+.tabs-vr .tabs-contents, 
+.properties li,
+.order-info li,
+#btnPaymentFunctionality,
+ul.views li
+{
+    zoom: 1;
+    display: inline;
+}
+input, textarea,
+ul.container-special, 
+ul.p-list, 
+.tabs-headers, 
+.tabs, 
+.btn-c, 
+div.adress-payment, 
+.pie, 
+.stroke-inside, 
+.modal .btns, 
+.oc-panel-wr, 
+.aplly-price, 
+.zoomWindow, 
+.certificate .section,
+.certificate,
+.error-message,
+.param-value,
+.pnlAdmin,
+.bloсk-search .content
+{
+    zoom: 1;
+}
+ul.form li .param-name
+{
+    margin-top: 3px;
+}
+ul.form-adress
+{
+    margin-top: 30px;
+    display: block !important;
+}
+.basket .footer .textarea textarea
+{
+    height: 50px;
+}
+.tabs-vr .tabs-headers .tab-header
+{
+    min-width: 160px;
+}
+.tabs-vr .tabs-headers .tab-inside
+{
+    min-width: 145px;
+}
+.tabs-vr .tabs-headers span.tab-inside
+{
+    display: block !important;
+}
+.tree .search-input input.search-text {
+
+}
+input[type=text].search-text{
+    line-height:28px;
+}
+input[type=text], input[type=password] {
+    line-height: 19px;
+}

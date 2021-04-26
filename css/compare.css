@@ -1,0 +1,68 @@
+﻿body {
+	font-family: Arial,Helvetica,sans-serif;
+	padding: 5px 20px 20px 20px;
+	font-size: 14px;
+}
+
+img {
+    border: none;
+}
+
+.n {
+	font-size: 18px;
+}
+.comp td {
+	border: 1px #dbdbdb solid;
+}
+table {
+	border-collapse: collapse;
+}
+table td {
+	vertical-align: top;
+	padding: 10px;
+}
+.pName {
+	font-size: 18px;
+}
+.cCell td {
+	width: 160px;
+	text-align: center;
+}
+.nCell td {
+	width: 160px;
+	text-align: center;
+}
+tr.nCell:hover {
+	background-color: #f7fbfe;
+}
+.nb {
+	border-bottom-color: white !important;
+	width: 160px;
+}
+.propN {
+	font-weight: bold;
+	text-align: left !important;
+}
+.price {
+	font-weight: bold;
+	color: #f09029;
+}
+.yes {
+	vertical-align: middle;
+}
+.inf {
+	width: 230px !important;
+	text-align: left !important;
+}
+.nc {
+	width: 230px;
+	border-right: 1px white solid !important;
+	vertical-align: middle;
+}
+.cc {
+	text-align: right;
+	padding: 0px;
+}
+.compare-cursor {
+    cursor: pointer;
+}

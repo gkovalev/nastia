@@ -1,0 +1,57 @@
+//--------------------------------------------------
+// Project: AdvantShop.NET
+// Web site: http:\\www.advantshop.net
+//--------------------------------------------------
+
+using System;
+using System.Web;
+using AdvantShop.Orders;
+//using QiwiServiceReference;
+
+namespace AdvantShop.Payment
+{
+    public class Qiwi : PaymentMethod
+    {
+        private const string Url = "http://w.qiwi.ru/setInetBill_utf.do";
+        public string Login { get; set; }
+        public string Password { get; set; }
+        public string UserId { get; set; }
+
+        public override PaymentType Type
+        {
+            get { return PaymentType.QIWI; }
+        }
+        public override void ProcessForm(Order order)
+        {
+            throw new Exception("payment not complate");
+            //var qiwi = new ShopServerWSClient();
+            //var temp = qiwi.createBill(Login, Password, UserId, order.Sum.ToString(), Resources.Resource.Client_OrderConfirmation_PayOrder + " #" + order.OrderID, order.OrderID.ToString(), "data", 0, false);
+            //if (temp == (int)QiwiTemplate.CreateCode.Sucsses)
+            // {
+
+            //}
+        }
+
+        public bool CheckBill(int billId)
+        {
+            throw new Exception("payment not complate");
+            //string amount;
+            //string date;
+            //string lifetime;
+            //int status = -1;
+            //var qiwi = new ShopServerWSClient();
+            //qiwi.checkBill(Login, Password, billId.ToString(), out amount, out date, out lifetime, out status);
+            //if (status == (int)QiwiTemplate.CheckCode.Paid)
+            //{
+            //    return true;
+            //}
+            //return false;
+        }
+
+        public override string ProcessResponse(HttpContext context)
+        {
+            return base.ProcessResponse(context);
+        }
+
+    }
+}

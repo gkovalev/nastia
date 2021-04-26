@@ -1,0 +1,112 @@
+using System;
+using System.IO;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using AdvantShop.Configuration;
+using AdvantShop.Diagnostics;
+using Resources;
+
+//--------------------------------------------------
+// Project: AdvantShop.NET
+// Web site: http:\\www.advantshop.net
+//--------------------------------------------------
+
+public partial class Admin_BugTrackerArchives : Page
+{
+    protected override void InitializeCulture()
+    {
+        AdvantShop.Localization.Culture.InitializeCulture();
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        Page.Title = string.Format("{0} - {1}", SettingsMain.ShopName,
+                                   Resource.Admin_MasterPageAdmin_BugTracker_HeaderArchives);
+        BindArchives();
+    }
+
+    protected string Dotter(string linkText)
+    {
+        return string.Format("{0}...", linkText);
+    }
+
+    protected void BindArchives()
+    {
+        try
+        {
+            Page.Title = string.Format("{0} - {1}", SettingsMain.ShopName,
+                                       Resource.Admin_MasterPageAdmin_BugTracker_HeaderArchives);
+
+            var directory = new DirectoryInfo(Server.MapPath("~") + "\\App_Data\\errlog\\archive\\");
+            FileInfo[] files = directory.GetFiles("*.zip");
+            if (files.Length == 0)
+            {
+                lbEmptyLog.Visible = true;
+                lbEmptyLog.Text = Resource.Admin_BugTracker_EmptyLog;
+                grid.Visible = false;
+            }
+            else
+            {
+                grid.DataSource = files;
+                grid.DataBind();
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError(ex);
+        }
+    }
+
+    protected void grid_RowCommand(object source, GridViewCommandEventArgs e)
+    {
+        switch (e.CommandName)
+        {
+            case "DownloadFile":
+                string path1 = Server.MapPath("~/App_Data/errlog/archive/" + e.CommandArgument);
+                var file1 = new FileInfo(path1);
+                if (file1.Exists)
+                {
+                    Response.Clear();
+                    Response.AddHeader("Content-Disposition", "attachment;filename=" + file1.Name);
+                    Response.AddHeader("Content-Length", file1.Length.ToString());
+                    Response.ContentType = "application/x-download";
+                    Response.WriteFile(file1.FullName);
+                    Response.End();
+                }
+                else
+                {
+                    Response.Write("This file does not exist.");
+                }
+                break;
+            case "DeleteFile":
+                string path = Server.MapPath("~/App_Data/errlog/archive/" + e.CommandArgument);
+                var file = new FileInfo(path);
+                if (file.Exists)
+                {
+                    file.Delete();
+                    BindArchives();
+                }
+                else
+                {
+                    Response.Write("This file does not exist.");
+                }
+                break;
+        }
+    }
+
+    protected void lbError404_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTrackerError404.aspx");
+    }
+
+    protected void lbInternal_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTracker.aspx");
+    }
+
+    protected void lbOther_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTrackerOther.aspx");
+    }
+}

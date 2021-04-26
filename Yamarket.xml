@@ -1,0 +1,1294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2018-01-09 02:21">
+  <shop>
+    <name>Интернет-магазин электроинструментов в Гродно - Технопрофиль.</name>
+    <company>Интернет-магазин электроинструментов в Гродно - Технопрофиль.</company>
+    <url>http://tpro.by</url>
+    <currencies>
+      <currency id="BYR" rate="1" />
+      <currency id="BYN" rate="2" />
+    </currencies>
+    <categories>
+      <category id="7537422">Измерительный инструмент</category>
+      <category id="7537423">Оснастка к электроинструменту</category>
+      <category id="7537424">Пневматическое и гидравлическое оборудование</category>
+      <category id="7537425">Электроинструменты BOSCH, MAKITA, ФИОЛЕНТ и пр.</category>
+      <category id="7537426">Электротехнические изделия</category>
+      <category id="7537427">Строительное оборудование</category>
+      <category id="7537428">Садовая техника, оснастка и принадлежности</category>
+      <category id="7537429">Сварочное оборудование и материалы</category>
+      <category id="7537430">Средства индивидуальной защиты и спецодежда</category>
+      <category id="7537431">Системы хранения</category>
+      <category id="7537432">Хозтовары</category>
+      <category id="7537433">Нагреватели и осушители воздуха</category>
+      <category id="7537434">Очистители (мойки) высокого давления</category>
+      <category id="7537435">Масла моторные, трансмиссионные, компрессорные, для смазки цепей</category>
+      <category id="7537436">Крепеж</category>
+      <category id="7537437">Зарядные, пуско-зарядные устройства, преобразователь напряжения, тестеры аккумуляторов</category>
+      <category id="7537438">Ручной инструмент</category>
+      <category id="7537439">Строительные и отделочные материалы</category>
+      <category id="7537440">Я СУВЕНИРЫ</category>
+      <category id="7537441">СТЕНДЫ</category>
+      <category id="7537442">Садовый инструмент</category>
+      <category id="7537443">Товары для дома</category>
+      <category id="7537444">Сантехника</category>
+      <category id="7537445" parentId="7537436">Анкерный крепеж</category>
+      <category id="7537446" parentId="7537423">Оснастка для угловых шлифмашин</category>
+      <category id="7537447" parentId="7537438">Общестроительный инструмент</category>
+      <category id="7537448" parentId="7537427">Трубообрабатывающее оборудование</category>
+      <category id="7537449" parentId="7537425">Аккумуляторная техника</category>
+      <category id="7537450" parentId="7537426">Вилки электрические</category>
+      <category id="7537451" parentId="7537424">Пневмошлифмашины</category>
+      <category id="7537452" parentId="7537439">Герметики</category>
+      <category id="7537453" parentId="7537428">Газонокосилки электро и ручные</category>
+      <category id="7537454" parentId="7537429">Горелки и резаки газовые</category>
+      <category id="7537455" parentId="7537432">Изолента, скотч, ленты</category>
+      <category id="7537456" parentId="7537430">Спецодежда</category>
+      <category id="7537457" parentId="7537441">Стенды пр-ва ИП "АРЛЕКС"</category>
+      <category id="7537458" parentId="7537434">Очистители высокого давления BOSCH</category>
+      <category id="7537459" parentId="7537440">Сувениры TOPTUL</category>
+      <category id="7537460" parentId="7537442">Садовый инструмент FISKARS</category>
+      <category id="7537461" parentId="7537443">Бытовая химия</category>
+      <category id="7537462" parentId="7537437">Зарядные устройства</category>
+      <category id="7537463" parentId="7537435">Масла моторные 2-х тактные</category>
+      <category id="7537464" parentId="7537431">Ящики инструментальные пластмассовые</category>
+      <category id="7537465" parentId="7537422">Ручной измерительный инструмент</category>
+      <category id="7537466" parentId="7537444">Инструмент для монтажа труб и расходные материалы</category>
+      <category id="7537467" parentId="7537445">Анкер рамный</category>
+      <category id="7537468" parentId="7537447">Заклепочники</category>
+      <category id="7537469" parentId="7537446">Круги отрезные и обдирочные ф 115 мм</category>
+      <category id="7537470" parentId="7537448">Клуппы и принадлености к ним</category>
+      <category id="7537471" parentId="7537449">Аккумуляторные дрели-шуруповерты</category>
+      <category id="7537472" parentId="7537454">Резаки</category>
+      <category id="7537473" parentId="7537451">Прямые пневмошлифмашины</category>
+      <category id="7537474" parentId="7537433">Аксессуары и зч для нагревателей</category>
+      <category id="7537475" parentId="7537466">Аппараты для сварки полимерных труб</category>
+      <category id="7537476" parentId="7537458">Принадлежности для очистителей высокого давления BOSCH</category>
+      <category id="7537477" parentId="7537465">Линейки, угольники</category>
+      <category id="7537478" parentId="7537456">Жилеты рабочие</category>
+      <category id="7537479" parentId="7537460">Gerber - Bear Grylls</category>
+      <category id="7537480" parentId="7537461">Средства для стирки</category>
+      <category id="7537481" parentId="7537423">Сверление</category>
+      <category id="7537483" parentId="7537423">Коронки</category>
+      <category id="7537485" parentId="7537423">Разрушение камня и бетона</category>
+      <category id="7537487" parentId="7537485">Зубила для перфораторов SDS-plus</category>
+      <category id="7537488" parentId="7537423">Оснастка для дрелей, шуруповертов</category>
+      <category id="7537489" parentId="7537423">Пилы и пилки</category>
+      <category id="7537491" parentId="7537423">Принадлежности для электроинструмента</category>
+      <category id="7537493" parentId="7537423">Фрезерование</category>
+      <category id="7537494" parentId="7537438">Слесарный инструмент</category>
+      <category id="7537495" parentId="7537494">Ключи слесарные</category>
+      <category id="7537496" parentId="7537494">Молотки, кувалды,киянки</category>
+      <category id="7537497" parentId="7537494">Ножницы ручные, болторезы</category>
+      <category id="7537498" parentId="7537494">Отвертки</category>
+      <category id="7537499" parentId="7537494">Слесарные наборы</category>
+      <category id="7537500" parentId="7537425">Вертикальные фрезерные машины</category>
+      <category id="7537501" parentId="7537425">Виброшлифмашины и резаки</category>
+      <category id="7537502" parentId="7537425">Гайковерты</category>
+      <category id="7537503" parentId="7537425">Пистолеты клеевые</category>
+      <category id="7537504" parentId="7537425">Ленточные шлифмашины</category>
+      <category id="7537505" parentId="7537425">Лобзиковые пилы</category>
+      <category id="7537506" parentId="7537425">Ножницы</category>
+      <category id="7537507" parentId="7537425">Отбойные молотки</category>
+      <category id="7537508" parentId="7537425">Перфораторы</category>
+      <category id="7537509" parentId="7537425">Прямые шлифмашины</category>
+      <category id="7537510" parentId="7537425">Пылесосы</category>
+      <category id="7537511" parentId="7537425">Рубанки</category>
+      <category id="7537512" parentId="7537425">Системы алмазного бурения</category>
+      <category id="7537513" parentId="7537425">Термовоздуходувки</category>
+      <category id="7537514" parentId="7537425">Углошлифмашины</category>
+      <category id="7537515" parentId="7537425">Циркулярные ручные пилы</category>
+      <category id="7537516" parentId="7537425">Эксцентриковые шлифмашины</category>
+      <category id="7537517" parentId="7537426">Электротехнический инструмент</category>
+      <category id="7537518" parentId="7537494">Ножовки ручные</category>
+      <category id="7537519" parentId="7537425">Бороздоделы</category>
+      <category id="7537520" parentId="7537438">Металлообрабатывающий инструмент</category>
+      <category id="7537521" parentId="7537491">Оснастка для рубанка</category>
+      <category id="7537522" parentId="7537425">Сабельные и столярные пилы</category>
+      <category id="7537523" parentId="7537424">Пневмогайковерты, винтоверты</category>
+      <category id="7537524" parentId="7537494">Напильники</category>
+      <category id="7537525" parentId="7537423">Шлифование и полирование</category>
+      <category id="7537526" parentId="7537525">Круги на бакелитовой связке</category>
+      <category id="7537527" parentId="7537525">Круги заточные</category>
+      <category id="7537528" parentId="7537424">Отбойные пневмомолотки</category>
+      <category id="7537529" parentId="7537495">Ключи рожковые TOPTUL</category>
+      <category id="7537530" parentId="7537495">Ключи накидные TOPTUL</category>
+      <category id="7537531" parentId="7537495">Ключи комбинированные TOPTUL</category>
+      <category id="7537532" parentId="7537495">Ключи трубные</category>
+      <category id="7537533" parentId="7537495">Ключи разводные</category>
+      <category id="7537534" parentId="7537424">Компрессоры</category>
+      <category id="7537535" parentId="7537424">Краскораспылители пневматические</category>
+      <category id="7537536" parentId="7537425">Станки точильные</category>
+      <category id="7537537" parentId="7537514">Одноручные углошлифмашины</category>
+      <category id="7537538" parentId="7537514">Двуручные углошлифмашины</category>
+      <category id="7537539" parentId="7537439">Пена монтажная</category>
+      <category id="7537540" parentId="7537428">Бензопилы и пилы цепные электрические</category>
+      <category id="7537542" parentId="7537427">Станки для резки камня</category>
+      <category id="7537543" parentId="7537425">Шлифователи, полировальные машины</category>
+      <category id="7537544" parentId="7537494">Стамески</category>
+      <category id="7537545" parentId="7537436">Саморезы и шурупы</category>
+      <category id="7537546" parentId="7537428">Триммеры</category>
+      <category id="7537547" parentId="7537483">Коронки пильные</category>
+      <category id="7537548" parentId="7537427">Виброплиты</category>
+      <category id="7537549" parentId="7537427">Электростанции</category>
+      <category id="7537550" parentId="7537525">Оснастка для щеточных и прямых шлифмашин</category>
+      <category id="7537551" parentId="7537425">Дрели</category>
+      <category id="7537552" parentId="7537425">Торцовочные пилы</category>
+      <category id="7537553" parentId="7537423">Акционные наборы</category>
+      <category id="7537554" parentId="7537491">Оснастка для гайковертов</category>
+      <category id="7537555" parentId="7537494">Головки, удлинители, воротки, трещотки</category>
+      <category id="7537556" parentId="7537494">Топоры</category>
+      <category id="7537557" parentId="7537436">Специальный крепеж</category>
+      <category id="7537558" parentId="7537426">Кабельная продукция</category>
+      <category id="7537559" parentId="7537426">Светильники</category>
+      <category id="7537560" parentId="7537429">Рукав кислородный</category>
+      <category id="7537561" parentId="7537429">Редукторы сварочные</category>
+      <category id="7537562" parentId="7537429">Клеммы заземления</category>
+      <category id="7537563" parentId="7537438">Малярный инструмент</category>
+      <category id="7537564" parentId="7537563">Кисти</category>
+      <category id="7537565" parentId="7537563">Валики, ролики малярные, принадлежности</category>
+      <category id="7537566" parentId="7537438">Штукатурно-отделочный инструмент</category>
+      <category id="7537568" parentId="7537566">Терки, гладилки</category>
+      <category id="7537569" parentId="7537436">Заклепки</category>
+      <category id="7537570" parentId="7537447">Инструмент для  обработки плитки и стекла</category>
+      <category id="7537571" parentId="7537494">Тиски, струбцины</category>
+      <category id="7537572" parentId="7537495">Ключи имбусовые</category>
+      <category id="7537573" parentId="7537488">Биты, насадки  крестообразные</category>
+      <category id="7537574" parentId="7537563">Лента малярная,серпянка,стеклосетка</category>
+      <category id="7537575" parentId="7537447">Скобозабивные пистолеты,скобы</category>
+      <category id="7537576" parentId="7537525">Шлифленты для ленточных шлифмашин</category>
+      <category id="7537577" parentId="7537525">Шлифлисты для эксцентриковых, полировальных шлифмашин</category>
+      <category id="7537578" parentId="7537525">Шлифлисты для дельташлифователей</category>
+      <category id="7537579" parentId="7537447">Ножи, скребки</category>
+      <category id="7537580" parentId="7537494">Рубанки ручные</category>
+      <category id="7537581" parentId="7537525">Шлифшкурка</category>
+      <category id="7537582" parentId="7537423">Алмазная резка, шлифование и сверление</category>
+      <category id="7537584" parentId="7537446">Круги отрезные и обдирочные ф 230 мм</category>
+      <category id="7537585" parentId="7537446">Щетки проволочные</category>
+      <category id="7537586" parentId="7537448">Трубогибы</category>
+      <category id="7537587" parentId="7537448">Труборезы</category>
+      <category id="7537588" parentId="7537446">Круги отрезные и обдирочные ф 125 мм</category>
+      <category id="7537589" parentId="7537446">Круги отрезные и обдирочные ф 150 мм</category>
+      <category id="7537590" parentId="7537446">Круги отрезные и обдирочные ф 180 мм</category>
+      <category id="7537591" parentId="7537517">Паяльники</category>
+      <category id="7537592" parentId="7537481">Сверла по металлу</category>
+      <category id="7537594" parentId="7537432">Замки, защелки</category>
+      <category id="7537595" parentId="7537494">Автослесарный инструмент</category>
+      <category id="7537596" parentId="7537545">Саморезы кровельные по дереву RAL</category>
+      <category id="7537597" parentId="7537436">Гвозди</category>
+      <category id="7537598" parentId="7537575">Скобы</category>
+      <category id="7537599" parentId="7537428">Воздуходувки и распылители</category>
+      <category id="7537600" parentId="7537481">Сверла по дереву</category>
+      <category id="7537601" parentId="7537481">Сверла по бетону, камню цилиндрический хвостовик</category>
+      <category id="7537602" parentId="7537488">Щетки, шлифтарелки для дрелей</category>
+      <category id="7537603" parentId="7537488">Головки</category>
+      <category id="7537604" parentId="7537426">Удлинители</category>
+      <category id="7537605" parentId="7537428">Мотокосы</category>
+      <category id="7537606" parentId="7537427">Лестницы, стремянки, леса, подмости, мусоропровод строительный</category>
+      <category id="7537607" parentId="7537449">Аккумуляторные шуруповерты</category>
+      <category id="7537608" parentId="7537449">Аккумуляторные перфораторы</category>
+      <category id="7537609" parentId="7537449">Другая аккумуляторная техника</category>
+      <category id="7537610" parentId="7537449">Аккумуляторы</category>
+      <category id="7537611" parentId="7537581">Шлифшкурка в рулонах на бумажной основе</category>
+      <category id="7537612" parentId="7537581">Шлифшкурка в листах</category>
+      <category id="7537613" parentId="7537427">Бетоносмесители, растворосмесители</category>
+      <category id="7537614" parentId="7537429">Электроды</category>
+      <category id="7537616" parentId="7537614">Электроды для нерж. стали</category>
+      <category id="7537617" parentId="7537424">Пневмодрели, шуруповерты</category>
+      <category id="7537618" parentId="7537495">Ключи динамометрические</category>
+      <category id="7537619" parentId="7537430">Перчатки</category>
+      <category id="7537620" parentId="7537430">Обувь рабочая</category>
+      <category id="7537621" parentId="7537430">Средства защиты головы,зрения,слуха</category>
+      <category id="7537622" parentId="7537430">Средства защиты органов дыхания</category>
+      <category id="7537623" parentId="7537430">Пояса предохранительные, лазы, когти</category>
+      <category id="7537624" parentId="7537427">Тачки и тележки</category>
+      <category id="7537625" parentId="7537551">Дрели ударные</category>
+      <category id="7537626" parentId="7537491">Насадки и др. приспособления для миксеров и дрелей</category>
+      <category id="7537627" parentId="7537606">Лестницы</category>
+      <category id="7537628" parentId="7537494">Головки, удлинители ударные</category>
+      <category id="7537629" parentId="7537614">Электроды для чугуна</category>
+      <category id="7537630" parentId="7537428">Снегоуборочная техника</category>
+      <category id="7537631" parentId="7537429">Аппараты для полуавтоматической сварки (MIG/MAG/FLUX)</category>
+      <category id="7537632" parentId="7537454">Горелки</category>
+      <category id="7537633" parentId="7537525">Шлифсетка</category>
+      <category id="7537634" parentId="7537424">Пневмоскобо(гвозде)забиватели</category>
+      <category id="7537635" parentId="7537571">Тиски станочные(машинные)</category>
+      <category id="7537636" parentId="7537571">Тиски слесарные</category>
+      <category id="7537637" parentId="7537571">Струбцины</category>
+      <category id="7537638" parentId="7537494">Губцевый инструмент</category>
+      <category id="7537640" parentId="7537638">Клещи</category>
+      <category id="7537641" parentId="7537426">Фонари</category>
+      <category id="7537642" parentId="7537427">Бензорезы</category>
+      <category id="7537643" parentId="7537428">Мотоножницы, электроножницы, кусторезы, высоторезы</category>
+      <category id="7537644" parentId="7537424">Домкраты, гидравлическое оборудование</category>
+      <category id="7537645" parentId="7537488">Наборы бит</category>
+      <category id="7537646" parentId="7537518">Ножовки по дереву</category>
+      <category id="7537647" parentId="7537518">Ножовки по металлу</category>
+      <category id="7537648" parentId="7537518">Ножовки по газобетону, газосиликату</category>
+      <category id="7537649" parentId="7537430">Рукавицы, краги</category>
+      <category id="7537650" parentId="7537621">Каски, маски</category>
+      <category id="7537651" parentId="7537621">Очки</category>
+      <category id="7537652" parentId="7537621">Наушники, беруши</category>
+      <category id="7537653" parentId="7537429">Проволока сварочная для сварки углеродистых и низколегированных сталей</category>
+      <category id="7537654" parentId="7537527">Ф 80мм</category>
+      <category id="7537655" parentId="7537527">Ф 200мм</category>
+      <category id="7537656" parentId="7537527">Ф 300мм</category>
+      <category id="7537657" parentId="7537527">Ф 350мм</category>
+      <category id="7537658" parentId="7537527">Ф 400мм</category>
+      <category id="7537659" parentId="7537527">Ф 450мм и выше</category>
+      <category id="7537660" parentId="7537427">Резчики швов, резчики кровли и тротуарной плитки</category>
+      <category id="7537661" parentId="7537427">Насосное оборудование</category>
+      <category id="7537662" parentId="7537427">Станки</category>
+      <category id="7537663" parentId="7537427">Грузоподъемное оборудование</category>
+      <category id="7537664" parentId="7537663">Тали</category>
+      <category id="7537665" parentId="7537432">Веревка, канат, шпагат</category>
+      <category id="7537666" parentId="7537447">Оградительная лента, знаки</category>
+      <category id="7537667" parentId="7537427">Вибраторы площадочные</category>
+      <category id="7537668" parentId="7537427">Трансформаторы понижающие</category>
+      <category id="7537669" parentId="7537525">Бруски, губки абразивные</category>
+      <category id="7537670" parentId="7537577">Шлифлисты для эксцентриковых шлифмашин</category>
+      <category id="7537671" parentId="7537436">Дюбельная техника</category>
+      <category id="7537674" parentId="7537488">Держатели для бит</category>
+      <category id="7537675" parentId="7537488">Биты, насадки  шлицевые</category>
+      <category id="7537676" parentId="7537540">Принадлежности и оснастка для цепных пил</category>
+      <category id="7537678" parentId="7537540">Шины для цепных пил</category>
+      <category id="7537679" parentId="7537525">Сегменты для мозаичношлифовальных машин</category>
+      <category id="7537680" parentId="7537545">Шурупы по бетону</category>
+      <category id="7537681" parentId="7537451">Эксцентриковые пневмошлифмашины</category>
+      <category id="7537682" parentId="7537506">Ножи, пуансоны, матрицы</category>
+      <category id="7537683" parentId="7537494">Зубила, бородки, выколотки</category>
+      <category id="7537684" parentId="7537540">Цепи для цепных пил в бухтах</category>
+      <category id="7537685" parentId="7537428">Мотобуры, мульти- и комбидвигатели</category>
+      <category id="7537686" parentId="7537427">Мотопомпы</category>
+      <category id="7537687" parentId="7537581">Шлифшкурка в рулонах на тканевой основе</category>
+      <category id="7537688" parentId="7537445">Анкер клиновой</category>
+      <category id="7537689" parentId="7537595">Съемники</category>
+      <category id="7537690" parentId="7537547">Коронки биметаллические</category>
+      <category id="7537691" parentId="7537592">Сверла по металлу цилиндрический хвостовик Bosch</category>
+      <category id="7537692" parentId="7537481">Сверла универсальные</category>
+      <category id="7537693" parentId="7537592">Сверла по металлу цилиндрический хвостовик Diager</category>
+      <category id="7537694" parentId="7537564">Кисти круглые</category>
+      <category id="7537695" parentId="7537564">Кисти плоские</category>
+      <category id="7537696" parentId="7537427">Вибраторы глубинные</category>
+      <category id="7537697" parentId="7537696">Вибронаконечники</category>
+      <category id="7537698" parentId="7537696">Гибкие валы</category>
+      <category id="7537699" parentId="7537470">Клуппы электрические</category>
+      <category id="7537700" parentId="7537549">Электростанции ENDRESS, ECO</category>
+      <category id="7537701" parentId="7537686">Мотопомпы ENDRESS и ЕСО</category>
+      <category id="7537702" parentId="7537451">Вибрационные пневмошлифмашины</category>
+      <category id="7537703" parentId="7537545">Саморезы кровельные по дереву</category>
+      <category id="7537704" parentId="7537545">Саморезы кровельные по металлу</category>
+      <category id="7537705" parentId="7537545">Саморезы кровельные по металлу RAL</category>
+      <category id="7537706" parentId="7537495">Ключи торцевые</category>
+      <category id="7537707" parentId="7537445">Анкер забиваемый</category>
+      <category id="7537708" parentId="7537445">Анкер с гайкой</category>
+      <category id="7537709" parentId="7537527">Ф 100мм</category>
+      <category id="7537710" parentId="7537527">Ф 125мм</category>
+      <category id="7537711" parentId="7537527">Ф 150мм</category>
+      <category id="7537712" parentId="7537527">Ф 175мм</category>
+      <category id="7537713" parentId="7537498">Наборы отверток</category>
+      <category id="7537714" parentId="7537498">Отвертки шлицевые</category>
+      <category id="7537715" parentId="7537498">Отвертки крестообразные</category>
+      <category id="7537716" parentId="7537449">Зарядные устройства, радиоприемники</category>
+      <category id="7537717" parentId="7537487">Зубила SDS+ плоские</category>
+      <category id="7537718" parentId="7537487">Зубила SDS+ пиковые</category>
+      <category id="7537719" parentId="7537487">Зубила SDS+ лопаточные</category>
+      <category id="7537720" parentId="7537487">Зубила SDS+ канальные, изогнутые, плиточные</category>
+      <category id="7537725" parentId="7537545">Шурупы с шестигранной головкой DIN 571</category>
+      <category id="7537726" parentId="7537604">Удлинители 40м</category>
+      <category id="7537727" parentId="7537604">Удлинители 50м</category>
+      <category id="7537728" parentId="7537604">Удлинители 30м</category>
+      <category id="7537729" parentId="7537604">Удлинители до 10м</category>
+      <category id="7537730" parentId="7537424">Рукава пневматические, шланги</category>
+      <category id="7537731" parentId="7537686">Рукава напорные, всасывающие</category>
+      <category id="7537732" parentId="7537676">Канистры</category>
+      <category id="7537733" parentId="7537433">Масляные обогреватели</category>
+      <category id="7537734" parentId="7537433">Тепловентиляторы</category>
+      <category id="7537735" parentId="7537424">Соединения для пневмоинструмента</category>
+      <category id="7537736" parentId="7537428">Навесное оборудование для культиваторов и мотоблоков</category>
+      <category id="7537737" parentId="7537428">Газонокосилки бензиновые</category>
+      <category id="7537738" parentId="7537427">Виброрейки</category>
+      <category id="7537739" parentId="7537517">Ножницы и ножи электротехнические</category>
+      <category id="7537740" parentId="7537517">Инструмент для снятия изоляции</category>
+      <category id="7537741" parentId="7537653">Проволока сварочная ф0,8мм</category>
+      <category id="7537742" parentId="7537653">Проволока сварочная ф1,2мм</category>
+      <category id="7537743" parentId="7537653">Проволока сварочная ф1,6мм</category>
+      <category id="7537744" parentId="7537517">Материалы для пайки</category>
+      <category id="7537745" parentId="7537570">Крестики для плитки</category>
+      <category id="7537746" parentId="7537508">Доп. принадлежности к перфораторам</category>
+      <category id="7537747" parentId="7537428">Измельчители</category>
+      <category id="7537748" parentId="7537653">Проволока сварочная ф1,0мм</category>
+      <category id="7537749" parentId="7537566">Миксеры</category>
+      <category id="7537750" parentId="7537561">Редукторы пропановые</category>
+      <category id="7537751" parentId="7537561">Редукторы кислородные</category>
+      <category id="7537752" parentId="7537561">Редукторы ацетиленовые</category>
+      <category id="7537753" parentId="7537561">Редукторы аргоновые</category>
+      <category id="7537754" parentId="7537561">Редукторы углекислотные</category>
+      <category id="7537769" parentId="7537520">Метчики и метчикодержатели</category>
+      <category id="7537770" parentId="7537488">Под заказ</category>
+      <category id="7537771" parentId="7537424">Пневмопистолеты моечные, продувочные, прочие</category>
+      <category id="7537772" parentId="7537634">Гвозди и скобы д/пистолета</category>
+      <category id="7537773" parentId="7537451">Угловые пневмошлифмашины</category>
+      <category id="7537774" parentId="7537512">Алмазные коронки</category>
+      <category id="7537775" parentId="7537774">Алмазные коронки SDS-DI</category>
+      <category id="7537776" parentId="7537512">Принадлежности для систем алмазного сверления</category>
+      <category id="7537777" parentId="7537525">Оснастка для шлифователей, полировальных машин</category>
+      <category id="7537778" parentId="7537454">Затворы, обратные клапаны</category>
+      <category id="7537779" parentId="7537549">Электростанции сварочные ENDRESS, Telwin, ECO</category>
+      <category id="7537780" parentId="7537555">Наборы головок</category>
+      <category id="7537781" parentId="7537628">Наборы головок ударных</category>
+      <category id="7537782" parentId="7537432">Доводчики дверные</category>
+      <category id="7537783" parentId="7537545">Саморезы для гипсокартона, крупная резьба (к дереву)</category>
+      <category id="7537784" parentId="7537545">Саморезы для гипсокартона, мелкая резьба (к металлу)</category>
+      <category id="7537785" parentId="7537430">Средства защиты от поражений эл. током</category>
+      <category id="7537786" parentId="7537436">Хомуты</category>
+      <category id="7537787" parentId="7537446">Круги лепестковые ф115мм</category>
+      <category id="7537788" parentId="7537446">Круги лепестковые ф150мм</category>
+      <category id="7537789" parentId="7537446">Круги лепестковые ф125мм</category>
+      <category id="7537790" parentId="7537446">Круги лепестковые ф180мм</category>
+      <category id="7537791" parentId="7537696">Электроприводы для глубинных вибраторов</category>
+      <category id="7537792" parentId="7537429">Кабель сварочный, разъемы</category>
+      <category id="7537793" parentId="7537566">Правила</category>
+      <category id="7537794" parentId="7537592">Сверла по металлу конический хвостовик (ОАО "ТП Томский инструмент")</category>
+      <category id="7537795" parentId="7537592">Сверла по металлу цилиндрический хвостовик ОАО "ТП Томский инструмент", ПО "Туламашзавод"</category>
+      <category id="7537796" parentId="7537488">Биты, насадки прочие</category>
+      <category id="7537797">Rebir</category>
+      <category id="7537798">ШТУРМ</category>
+      <category id="7537799">Энергомаш</category>
+      <category id="7537800">DE WALT</category>
+      <category id="7537801">ИНТЕРСКОЛ</category>
+      <category id="7537802" parentId="7537483">Коронки алмазные для твердой керамики</category>
+      <category id="7537803" parentId="7537481">Сверла по бетону для перфораторов SDS-Quick</category>
+      <category id="7537804" parentId="7537427">Машины заглаживающие</category>
+      <category id="7537805" parentId="7537696">Вибраторы глубинные STONE</category>
+      <category id="7537806" parentId="7537685">Насадки на комбидвигатели KM</category>
+      <category id="7537807" parentId="7537429">Аппараты для ручной сварки покрытым электродом (MMA)</category>
+      <category id="7537809" parentId="7537577">Круги полировальные для GEX, PEX, GPO</category>
+      <category id="7537810" parentId="7537525">Шлифлисты для GWS 14.4</category>
+      <category id="7537811" parentId="7537577">Принадлежности для GEX, PEX</category>
+      <category id="7537812" parentId="7537439">Клей</category>
+      <category id="7537813">СТЕЛЛАЖИ СКЛАДСКИЕ</category>
+      <category id="7537814" parentId="7537428">Аэраторы газона</category>
+      <category id="7537815" parentId="7537736">Навесное оборудование для культиваторов с разбивкой по моделям</category>
+      <category id="7537817" parentId="7537428">Аккум. ножницы и кусторезы</category>
+      <category id="7537818" parentId="7537441">Стенды универсальные</category>
+      <category id="7537819" parentId="7537440">Сувениры STIHL</category>
+      <category id="7537820" parentId="7537441">Выставочные системы STIHL</category>
+      <category id="7537821" parentId="7537481">Сверла по стеклу и кафелю</category>
+      <category id="7537822" parentId="7537614">Электроды вольфрамовые</category>
+      <category id="7537823" parentId="7537439">Краски, лаки, грунтовки аэрозольные</category>
+      <category id="7537824" parentId="7537432">Бутылки, канистры пластм.</category>
+      <category id="7537825" parentId="7537441">Стенды Telwin</category>
+      <category id="7537826" parentId="7537815">Навесное оборудование для культиваторов Fermer FM-653К/FM-653M/FM-643M</category>
+      <category id="7537827" parentId="7537815">Навесное оборудование для Fermer FM-700PRO/FM-700M</category>
+      <category id="7537828" parentId="7537426">Прожекторы галогеновые</category>
+      <category id="7537829" parentId="7537534">Компрессоры ЕСО</category>
+      <category id="7537830" parentId="7537621">Комплексные средства защиты</category>
+      <category id="7537831" parentId="7537429">Проволока сварочная для сварки нержавеющей стали</category>
+      <category id="7537832" parentId="7537429">Проволока сварочная FLUX</category>
+      <category id="7537833" parentId="7537429">Проволока сварочная для сварки алюминия</category>
+      <category id="7537834" parentId="7537447">Контейнеры строительные</category>
+      <category id="7537835" parentId="7537557">Пистолеты строительные, патроны, дюбель-гвозди</category>
+      <category id="7537836" parentId="7537441">Стенды DIAGER</category>
+      <category id="7537837" parentId="7537439">Уплотнители</category>
+      <category id="7537838" parentId="7537447">Отвесы,шнуры малярные, маркеры строительные, мелки, карандаши</category>
+      <category id="7537839" parentId="7537432">Уборка</category>
+      <category id="7537841" parentId="7537432">Лампы паяльные</category>
+      <category id="7537842" parentId="7537494">Ломы, монтировки</category>
+      <category id="7537843" parentId="7537433">Нагреватели дизельные переносные с прямым нагревом</category>
+      <category id="7537844" parentId="7537433">Нагреватели газовые переносные</category>
+      <category id="7537845" parentId="7537433">Нагреватели дизельные переносные с непрямым нагревом</category>
+      <category id="7537846" parentId="7537433">Нагреватели электрические</category>
+      <category id="7537847" parentId="7537433">Осушители воздуха</category>
+      <category id="7537848" parentId="7537437">Пуско-зарядные устройства</category>
+      <category id="7537849" parentId="7537437">Инверторы автомобильные (12-220В)</category>
+      <category id="7537850" parentId="7537595">Кузовной инструмент</category>
+      <category id="7537851" parentId="7537494">Наборы-сеты для тележек и ящиков</category>
+      <category id="7537852">яОснастка БОШ на магазин</category>
+      <category id="7537853" parentId="7537624">Элементы тачек ECO</category>
+      <category id="7537854" parentId="7537815">Навесное оборудование для культиваторов (мотоблоков) Fermer FM-701/702MSL/901/902</category>
+      <category id="7537855" parentId="7537429">Аппараты для сварки неплавящимся электродом (TIG)</category>
+      <category id="7537856" parentId="7537426">Мультиметры и токоизмерительные клещи</category>
+      <category id="7537857" parentId="7537437">Тестеры аккумуляторных батарей</category>
+      <category id="7537858" parentId="7537839">Снеговые лопаты, движки ,ледорубы</category>
+      <category id="7537859" parentId="7537619">Перчатки кожанные и спилковые</category>
+      <category id="7537860" parentId="7537619">Перчатки х/б</category>
+      <category id="7537861" parentId="7537619">Перчатки латексные (резиновые)</category>
+      <category id="7537862" parentId="7537428">Насосы и насосные станции</category>
+      <category id="7537863" parentId="7537424">Блоки подготовки воздуха, регуляторы</category>
+      <category id="7537864" parentId="7537441">Стенды SOLA</category>
+      <category id="7537865">ПЕЧАТНАЯ РЕКЛАМА</category>
+      <category id="7537866" parentId="7537440">Cувениры BOSCH</category>
+      <category id="7537867" parentId="7537441">Стенды BOSCH</category>
+      <category id="7537868" parentId="7537441">Стенд STIHL</category>
+      <category id="7537869" parentId="7537441">Cтенды ФИОЛЕНТ</category>
+      <category id="7537870" parentId="7537440">Сувениры ФИОЛЕНТ</category>
+      <category id="7537871" parentId="7537440">ИнструментКомплект</category>
+      <category id="7537872" parentId="7537440">Сувениры STARTUL</category>
+      <category id="7537873" parentId="7537440">Сувениры MAKITA</category>
+      <category id="7537874" parentId="7537441">Стенды Toptul</category>
+      <category id="7537875" parentId="7537441">Стенды FISKARS</category>
+      <category id="7537876" parentId="7537441">Стенды Cyclone</category>
+      <category id="7537877">Force, King Tony, Bahco</category>
+      <category id="7537878" parentId="7537815">Навесное оборудование для мотоблока FERMER FD/FDE - 905PRO</category>
+      <category id="7537879" parentId="7537815">Навесное оборудование для мотоблока FERMER FDE - 1001PRO</category>
+      <category id="7537880" parentId="7537736">Навесное оборудование для культиваторов и мотоблоков (ЗАО "ВРМЗ")</category>
+      <category id="7537881" parentId="7537815">Навесное оборудование для культиватора Fermer FM-633М</category>
+      <category id="7537882" parentId="7537736">Двигатели для культиваторов</category>
+      <category id="7537883" parentId="7537592">Сверла по металлу цилиндрический хвостовик GEPARD</category>
+      <category id="7537884" parentId="7537700">Аксессуары для электростанций ENDRESS, ECO</category>
+      <category id="7537885" parentId="7537441">Выставочные стенды STARTUL</category>
+      <category id="7537886" parentId="7537520">Метчики и плашки трубные</category>
+      <category id="7537887" parentId="7537736">Навесное оборудование для культиваторов и мотоблоков (г.Гагарин)</category>
+      <category id="7537888" parentId="7537441">Стенды ECO</category>
+      <category id="7537889" parentId="7537429">Аппараты для плазменной резки (CUT)</category>
+      <category id="7537890" parentId="7537736">Навесное оборудование для культиваторов и мотоблоков (РБ)</category>
+      <category id="7537891" parentId="7537426">Прожекторы, фонари аккумуляторные светодиодные</category>
+      <category id="7537892" parentId="7537685">Насадки на мультидвигатель OLEO-MAC</category>
+      <category id="7537893" parentId="7537426">Батарейки</category>
+      <category id="7537894" parentId="7537736">Тележки для мотоблоков, адаптеры</category>
+      <category id="7537895" parentId="7537894">Адаптеры для мотоблоков</category>
+      <category id="7537896" parentId="7537894">Тележки прицепные для мотоблоков</category>
+      <category id="7537897" parentId="7537685">Буры почвенные Oleo-Maс</category>
+      <category id="7537898" parentId="7537736">Камеры, покрышки, колёса</category>
+      <category id="7537899" parentId="7537563">Малярный инструмент EXPERT STARTUL</category>
+      <category id="7537900" parentId="7537425">Чемоданы, боксы</category>
+      <category id="7537901" parentId="7537433">Нагреватели стационарные</category>
+      <category id="7537902" parentId="7537815">Навесное оборудование для культиваторов Oleo-Mac</category>
+      <category id="7537903" parentId="7537736">Бороны, картофелесажалки, картофелекопалки, грабли</category>
+      <category id="7537904" parentId="7537736">Ступицы дифференциальные</category>
+      <category id="7537905" parentId="7537540">Цепи для цепных пил</category>
+      <category id="7537906" parentId="7537540">Шины и цепи для цепных пил в комплекте (COMBO)</category>
+      <category id="7537907" parentId="7537435">Масла моторные 4-х тактные</category>
+      <category id="7537908" parentId="7537435">Масла и смазки редукторные, трансмиссионные, для смазки цепей и пр.</category>
+      <category id="7537909" parentId="7537540">Шины для цепных пил по производителям пил</category>
+      <category id="7537911" parentId="7537909">Шины для цепных пил HUSQVARNA</category>
+      <category id="7537912" parentId="7537909">Шины для цепных пил BOSCH</category>
+      <category id="7537913" parentId="7537909">Шины для цепных пил MAKITA</category>
+      <category id="7537914" parentId="7537909">Шины для цепных пил ECO</category>
+      <category id="7537915" parentId="7537447">Инструмент для  обработки плитки и керамогранита SIGMA</category>
+      <category id="7537916" parentId="7537441">Стенды SIGMA</category>
+      <category id="7537917" parentId="7537434">Очистители высокого давления Nilfisk-Alto</category>
+      <category id="7537918" parentId="7537434">Очистители высокого давления ECO</category>
+      <category id="7537919" parentId="7537917">Принадлежности для очистителей высокого давления Nilfisk-Alto</category>
+      <category id="7537920" parentId="7537918">Принадлежности для очистителей высокого давления ECO</category>
+      <category id="7537921" parentId="7537495">Ключи комбинированные PRO STARTUL</category>
+      <category id="7537922" parentId="7537495">Ключи накидные PRO STARTUL</category>
+      <category id="7537923" parentId="7537495">Ключи рожковые PRO STARTUL</category>
+      <category id="7537924" parentId="7537494">Автомобильные наборы</category>
+      <category id="7537925" parentId="7537924">Автомобильные наборы PRO STARTUL</category>
+      <category id="7537926" parentId="7537924">Автомобильные наборы TOPTUL</category>
+      <category id="7537927" parentId="7537555">Головки, головки с насадками, биты-головки 1/4"</category>
+      <category id="7537928" parentId="7537555">Головки, головки с насадками, биты-головки 1/2"</category>
+      <category id="7537929" parentId="7537555">Головки, головки с насадками, биты-головки 3/8"</category>
+      <category id="7537930" parentId="7537555">Головки, головки с насадками, биты-головки 3/4"</category>
+      <category id="7537931" parentId="7537555">Головки, головки с насадками, биты-головки 1"</category>
+      <category id="7537932" parentId="7537628">Головки, головки с насадками, биты-головки ударные 1"</category>
+      <category id="7537933" parentId="7537628">Головки, головки с насадками, биты-головки ударные 1/2"</category>
+      <category id="7537934" parentId="7537628">Головки, головки с насадками, биты-головки ударные 3/4"</category>
+      <category id="7537935" parentId="7537628">Головки, головки с насадками, биты-головки ударные 3/8"</category>
+      <category id="7537936" parentId="7537638">Зажимной губцевый инструмент</category>
+      <category id="7537937" parentId="7537638">Тонкогубцы, круглогубцы, длинногубцы</category>
+      <category id="7537938" parentId="7537431">Тележки инструментальные</category>
+      <category id="7537939" parentId="7537494">Оборудование для ремонта</category>
+      <category id="7537940" parentId="7537924">Автомобильные наборы СИТОМО</category>
+      <category id="7537941" parentId="7537555">Трещотки</category>
+      <category id="7537942" parentId="7537555">Воротки</category>
+      <category id="7537943" parentId="7537565">Принадлежности</category>
+      <category id="7537944" parentId="7537579">Лезвия</category>
+      <category id="7537945" parentId="7537442">Поливочные принадлежности, шланги</category>
+      <category id="7537946" parentId="7537442">Опрыскиватели</category>
+      <category id="7537947" parentId="7537442">Секаторы, кусторезы, ножницы, ножи</category>
+      <category id="7537948" parentId="7537442">Лопаты, грабли, вилы, косы, черенки</category>
+      <category id="7537949" parentId="7537945">Поливочные пистолеты, распылители</category>
+      <category id="7537950" parentId="7537442">Инструмент для обработки почвы</category>
+      <category id="7537951" parentId="7537439">Пистолеты для пены, герметика</category>
+      <category id="7537952" parentId="7537465">Уровни</category>
+      <category id="7537953" parentId="7537465">Рулетки, мерные ленты</category>
+      <category id="7537954" parentId="7537605">Головки триммерные</category>
+      <category id="7537955" parentId="7537605">Ножи для мотокос, триммеров</category>
+      <category id="7537956" parentId="7537736">Навесное оборудование для культиваторов и мотоблоков (Украина)</category>
+      <category id="7537957" parentId="7537489">Пилки лобзиковые</category>
+      <category id="7537958" parentId="7537957">Пилки по дереву</category>
+      <category id="7537959" parentId="7537957">Пилки по металлу</category>
+      <category id="7537960" parentId="7537957">Пилки по другим материалам, универсальные</category>
+      <category id="7537961" parentId="7537525">Круги лепестковые с оправкой</category>
+      <category id="7537962" parentId="7537428">Свечи зажигания</category>
+      <category id="7537963" parentId="7537425">Многофункциональные инструменты</category>
+      <category id="7537964" parentId="7537423">Оснастка для многофункционального инструмента</category>
+      <category id="7537965" parentId="7537441">Стенды OLEO-MAC</category>
+      <category id="7537966" parentId="7537447">Проволока вязальная и крюки для вязки арматуры</category>
+      <category id="7537967" parentId="7537465">Штангенциркули</category>
+      <category id="7537968" parentId="7537431">Сумки, пояса для инструмента</category>
+      <category id="7537969" parentId="7537431">Ящики инструментальные металлические</category>
+      <category id="7537970" parentId="7537431">Органайзеры, модули, боксы для хранения мелочей</category>
+      <category id="7537971" parentId="7537431">Ящики с инструментом</category>
+      <category id="7537972" parentId="7537430">Наколенники</category>
+      <category id="7537973" parentId="7537456">Брюки рабочие</category>
+      <category id="7537974" parentId="7537456">Костюмы рабочие</category>
+      <category id="7537975" parentId="7537456">Костюмы сварщика</category>
+      <category id="7537976" parentId="7537456">Куртки рабочие</category>
+      <category id="7537977" parentId="7537456">Комбинезоны рабочие</category>
+      <category id="7537978" parentId="7537456">Плащи, халаты, фартуки, нарукавники и прочее</category>
+      <category id="7537979" parentId="7537621">Маски, щитки защитные</category>
+      <category id="7537980" parentId="7537621">Маски, щитки сварщика, стекла и светофильтры</category>
+      <category id="7537981" parentId="7537605">Кожужи защитные для мотокос</category>
+      <category id="7537982" parentId="7537605">Ремни наплечные для мотокос</category>
+      <category id="7537983" parentId="7537605">Леска косильная для мотокос, кусторезов, триммеров</category>
+      <category id="7537984" parentId="7537428">Минитракторы</category>
+      <category id="7537985" parentId="7537984">Навесное оборудование к мини-тракторам FERMER</category>
+      <category id="7537986" parentId="7537435">Масла компрессорные</category>
+      <category id="7537987" parentId="7537440">Cувениры FERMER</category>
+      <category id="7537988" parentId="7537875">Стенд универсальный Fiskars 165266</category>
+      <category id="7537989" parentId="7537441">Стенды SKIL</category>
+      <category id="7537990" parentId="7537440">Cувениры OLEOMAC</category>
+      <category id="7537991" parentId="7537433">Конвекторы электрические</category>
+      <category id="7537992" parentId="7537628">Головки, головки с насадками, биты-головки ударные 1/4"</category>
+      <category id="7537993" parentId="7537818">Стенды под пену и герметик</category>
+      <category id="7537994" parentId="7537440">Сувениры TIMBERK</category>
+      <category id="7537995" parentId="7537424">Наборы пневмоинструмента</category>
+      <category id="7537996" parentId="7537425">Краскораспылители электрические</category>
+      <category id="7537997" parentId="7537425">Степлеры электрические</category>
+      <category id="7537998" parentId="7537432">Ведра, контейнеры</category>
+      <category id="7537999" parentId="7537432">Прочие хозтовары</category>
+      <category id="7538000" parentId="7537551">Шуруповерты</category>
+      <category id="7538001" parentId="7537551">Миксеры строительные</category>
+      <category id="7538002" parentId="7537736">Сеялки для мотоблоков</category>
+      <category id="7538003" parentId="7537428">Сеялки с ручным приводом</category>
+      <category id="7538004" parentId="7537436">Такелаж</category>
+      <category id="7538005" parentId="7537436">Метрический крепеж</category>
+      <category id="7538008" parentId="7537671">Дюбель-гвоздь металлический</category>
+      <category id="7538009" parentId="7537429">Принадлежности для ручной сварки покрытым электродом (MMA)</category>
+      <category id="7538010" parentId="7537429">Принадлежности для сварки неплавящимся электродом (TIG)</category>
+      <category id="7538011" parentId="7537429">Принадлежности для полуавтоматической сварки (MIG/MAG/FLUX)</category>
+      <category id="7538012" parentId="7537429">Принадлежности для точечной сварки (SPOTTER)</category>
+      <category id="7538013" parentId="7537429">Принадлежности для плазменной резки (CUT)</category>
+      <category id="7538014" parentId="7537429">Принадлежности для сварки прочие</category>
+      <category id="7538015" parentId="7537429">Манометры</category>
+      <category id="7538016" parentId="7537431">Стеллажи</category>
+      <category id="7538017" parentId="7537431">Контейнеры мусорные</category>
+      <category id="7538018" parentId="7537425">Граверы электрические</category>
+      <category id="7538019" parentId="7538018">Принадлежности к граверу</category>
+      <category id="7538020" parentId="7537835">Дюбель-гвозди для монтажного пистолета</category>
+      <category id="7538021" parentId="7537835">Патроны для монтажного пистолета</category>
+      <category id="7538022" parentId="7537835">Пистолеты монтажные</category>
+      <category id="7538023" parentId="7537515">Пильные диски для циркулярных универсальных пил</category>
+      <category id="7538024" parentId="7537441">Стенды Norton</category>
+      <category id="7538025" parentId="7537445">Анкер с крюком</category>
+      <category id="7538026" parentId="7537445">Анкер с кольцом</category>
+      <category id="7538027" parentId="7537467">Анкеры рамные короба</category>
+      <category id="7538028" parentId="7537534">Комплектующие для компрессоров ECO</category>
+      <category id="7538029" parentId="7537428">Культиваторы бензиновые, электрические</category>
+      <category id="7538030" parentId="7537428">Мотоблоки бензиновые, дизельные</category>
+      <category id="7538031" parentId="7537520">Плашки и плашкодержатели</category>
+      <category id="7538032" parentId="7537600">Наборы сверл по дереву</category>
+      <category id="7538033" parentId="7537592">Наборы сверл по металлу</category>
+      <category id="7538034" parentId="7537692">Наборы сверл универсальные</category>
+      <category id="7538035" parentId="7537671">Дюбель для газосиликатных блоков</category>
+      <category id="7538036" parentId="7538035">Дюбель для газосиликатных блоков пластиковый контейнер</category>
+      <category id="7538037" parentId="7537540">Шины и цепи для цепных пил (система POWER SHARP)</category>
+      <category id="7538038" parentId="7537436">Перфорированный крепеж</category>
+      <category id="7538039" parentId="7537428">Ножи для газонокосилок</category>
+      <category id="7538040" parentId="7537671">Дюбель складной пружинный</category>
+      <category id="7538041" parentId="7537445">Анкер с гайкой двухраспорный</category>
+      <category id="7538042" parentId="7537445">Анкер с болтом</category>
+      <category id="7538043" parentId="7537676">Станки заточные для заточки пильных цепей</category>
+      <category id="7538044" parentId="7537441">Стенды OREGON</category>
+      <category id="7538045" parentId="7537545">Шайбы для кровельного самореза</category>
+      <category id="7538046" parentId="7537545">Шайбы для поликарбоната</category>
+      <category id="7538047" parentId="7537443">Посуда для готовки</category>
+      <category id="7538049" parentId="7537445">Анкер с прямоугольным крюком</category>
+      <category id="7538050" parentId="7537442">Плодосъемники</category>
+      <category id="7538051" parentId="7537438">Система укладки плитки DLS</category>
+      <category id="7538052" parentId="7537671">Дюбель DRIVA для гипсокартона</category>
+      <category id="7538053" parentId="7538005">Винт с потайной головкой</category>
+      <category id="7538054" parentId="7538005">Винт с полусферической головкой</category>
+      <category id="7538055" parentId="7537467">Анкеры рамные поштучно</category>
+      <category id="7538056" parentId="7537708">Анкеры с гайкой поштучно</category>
+      <category id="7538057" parentId="7538052">Дюбель для гипсокартонных плит DRIVA пластиковый контейнер</category>
+      <category id="7538058" parentId="7538053">Винт с потайной головкой пластиковый контейнер</category>
+      <category id="7538059" parentId="7538054">Винт с полусферической головкой пластиковый контейнер</category>
+      <category id="7538060" parentId="7538005">Винт для мебельной фурнитуры</category>
+      <category id="7538061" parentId="7538060">Винт для мебельной фурнитуры пластиковый контейнер</category>
+      <category id="7538062" parentId="7538005">Винт с внутренним шестигранником</category>
+      <category id="7538063" parentId="7538062">Винт с внутренним шестигранником пластиковый контейнер</category>
+      <category id="7538064" parentId="7538054">Винт с полусферической головкой картонная упаковка</category>
+      <category id="7538065" parentId="7538053">Винт с потайной головкой картонная упаковка</category>
+      <category id="7538066" parentId="7538062">Винт с внутренним шестигранником картонная упаковка</category>
+      <category id="7538067" parentId="7538005">Гайки шестигранные</category>
+      <category id="7538068" parentId="7538005">Гайка со стопорным кольцом</category>
+      <category id="7538069" parentId="7538005">Гайка врезная</category>
+      <category id="7538070" parentId="7538005">Гайка колпачковая</category>
+      <category id="7538071" parentId="7538005">Гайка удлиняющая</category>
+      <category id="7538072" parentId="7538005">Гайка с фланцем</category>
+      <category id="7538073" parentId="7538005">Гайка барашковая</category>
+      <category id="7538074" parentId="7538073">Гайка барашковая пластиковый контейнер</category>
+      <category id="7538075" parentId="7538073">Гайка барашковая картонная упаковка</category>
+      <category id="7538076" parentId="7538069">Гайка врезная пластиковый контейнер</category>
+      <category id="7538077" parentId="7538069">Гайка врезная картонная упаковка</category>
+      <category id="7538078" parentId="7538070">Гайка колпачковая пластиковый контейнер</category>
+      <category id="7538079" parentId="7538070">Гайка колпачковая картонная упаковка</category>
+      <category id="7538080" parentId="7538072">Гайка с фланцем картонная упаковка</category>
+      <category id="7538081" parentId="7538072">Гайка с фланцем пластиковый контейнер</category>
+      <category id="7538082" parentId="7538068">Гайка со стопорным кольцом пластиковый контейнер</category>
+      <category id="7538083" parentId="7538071">Гайка удлиняющая картонная упаковка</category>
+      <category id="7538084" parentId="7538071">Гайка удлиняющая пластиковый контейнер</category>
+      <category id="7538085" parentId="7538067">Гайка шестигранная пластиковый контейнер</category>
+      <category id="7538086" parentId="7538067">Гайка шестигранная картонная упаковка</category>
+      <category id="7538087" parentId="7538067">Гайка шестигранная короба</category>
+      <category id="7538088" parentId="7538005">Шайба гровер</category>
+      <category id="7538089" parentId="7538005">Шайба плоская</category>
+      <category id="7538090" parentId="7538005">Шайба увеличенная</category>
+      <category id="7538091" parentId="7538088">Шайба гровер пластиковый контейнер</category>
+      <category id="7538092" parentId="7538088">Шайба гровер картонная упаковка</category>
+      <category id="7538093" parentId="7538089">Шайба плоская картонная упаковка</category>
+      <category id="7538094" parentId="7538089">Шайба плоская короба</category>
+      <category id="7538095" parentId="7538090">Шайба плоская увеличенная картонная упаковка</category>
+      <category id="7538096" parentId="7538090">Шайба плоская увеличенная короба</category>
+      <category id="7538097" parentId="7538005">Болт шестигранный</category>
+      <category id="7538098" parentId="7538097">Болт шестигранный картонная упаковка</category>
+      <category id="7538099" parentId="7538097">Болт шестигранный поштучно</category>
+      <category id="7538100" parentId="7538004">Блоки двойные металл</category>
+      <category id="7538101" parentId="7538004">Вертлюги</category>
+      <category id="7538102" parentId="7538101">Вертлюги кольцо-кольцо</category>
+      <category id="7538103" parentId="7538101">Вертлюги кольцо-открытый конец</category>
+      <category id="7538104" parentId="7538004">Коуши</category>
+      <category id="7538105" parentId="7538004">Рым-болты</category>
+      <category id="7538106" parentId="7538004">Рым-гайки</category>
+      <category id="7538107" parentId="7538004">Талрепы</category>
+      <category id="7538108" parentId="7538107">Талрепы кольцо-кольцо</category>
+      <category id="7538109" parentId="7538107">Талрепы крюк-крюк</category>
+      <category id="7538110" parentId="7538107">Талрепы крюк-кольцо</category>
+      <category id="7538111" parentId="7537443">Посуда для питья</category>
+      <category id="7538113" parentId="7538004">Зажимы для троса</category>
+      <category id="7538114" parentId="7538113">Зажимы для стальных канатов DIN 741</category>
+      <category id="7538115" parentId="7538113">Зажимы для стальных канатов одинарные</category>
+      <category id="7538116" parentId="7538113">Зажимы для стальных канатов двойные</category>
+      <category id="7538117" parentId="7538004">Карабины</category>
+      <category id="7538118" parentId="7538117">Карабины пожарные с фисксатором</category>
+      <category id="7538119" parentId="7538117">Карабины пожарные без фиксатора</category>
+      <category id="7538120" parentId="7538004">Скобы такелажные</category>
+      <category id="7538121" parentId="7538120">Скобы такелажные пластиковый контейнер</category>
+      <category id="7538122" parentId="7538004">Соединители цепей</category>
+      <category id="7538123" parentId="7538122">Соединители цепей поштучно</category>
+      <category id="7538124" parentId="7538122">Соединители цепей пластиковый контейнер</category>
+      <category id="7538125" parentId="7538004">Цепи сварные длиннозвенные</category>
+      <category id="7538126" parentId="7538004">Цепи сварные короткозвенные</category>
+      <category id="7538127" parentId="7537545">Саморезы с прессшайбой цинк</category>
+      <category id="7538129" parentId="7538127">Саморезы с прессшайбой короба</category>
+      <category id="7538130" parentId="7537545">Саморезы для листового металла(клопы)</category>
+      <category id="7538131" parentId="7538130">Саморезы для листового металла пластиковый контейнер</category>
+      <category id="7538132" parentId="7538130">Саморезы для листового металла короба</category>
+      <category id="7538133" parentId="7538130">Саморезы для листового металла картонная упаковка</category>
+      <category id="7538134" parentId="7537703">Саморезы кровельные (металл/дерево) пластиковый контейнер</category>
+      <category id="7538135" parentId="7537703">Саморезы кровельные (металл/дерево) короба</category>
+      <category id="7538136" parentId="7537703">Саморезы кровельные (металл/дерево) картонная упаковка</category>
+      <category id="7538137" parentId="7537704">Саморезы кровельные (металл/металл) пластиковый контейнер</category>
+      <category id="7538138" parentId="7537704">Саморезы кровельные (металл/металл) короба</category>
+      <category id="7538139" parentId="7537704">Саморезы кровельные (металл/металл) картонная упаковка</category>
+      <category id="7538140" parentId="7537596">Саморезы кровельные цветные (металл/дерево) пластиковый контейнер</category>
+      <category id="7538141" parentId="7537596">Саморезы кровельные цветные (металл/дерево) короба</category>
+      <category id="7538142" parentId="7537596">Саморезы кровельные цветные (металл/дерево) картонная упаковка</category>
+      <category id="7538143" parentId="7537705">Саморезы кровельные цветные (металл/металл) пластиковый контейнер</category>
+      <category id="7538144" parentId="7537705">Саморезы кровельные цветные (металл/металл) короба</category>
+      <category id="7538145" parentId="7537705">Саморезы кровельные цветные (металл/металл) картонная упаковка</category>
+      <category id="7538146" parentId="7538045">Шайбы для кровельного самореза картонная упаковка</category>
+      <category id="7538147" parentId="7538046">Шайбы для поликарбоната картонная упаковка</category>
+      <category id="7538148" parentId="7537545">Шурупы универсальные желтый цинк</category>
+      <category id="7538149" parentId="7538148">Шурупы универсальные желтый цинк пластиковый контейнер</category>
+      <category id="7538150" parentId="7538148">Шурупы универсальные желтый цинк короба</category>
+      <category id="7538151" parentId="7538148">Шурупы универсальные желтый цинк картонная упаковка</category>
+      <category id="7538152" parentId="7537545">Шурупы универсальные белый цинк</category>
+      <category id="7538153" parentId="7538152">Шурупы универсальные белый цинк картонная упаковка</category>
+      <category id="7538154" parentId="7538152">Шурупы универсальные белый цинк пластиковый контейнер</category>
+      <category id="7538155" parentId="7537680">Шурупы по бетону картонная упаковка</category>
+      <category id="7538156" parentId="7537680">Шурупы по бетону короба</category>
+      <category id="7538157" parentId="7537725">Шурупы с шестигранной головкой картонная упаковка</category>
+      <category id="7538158" parentId="7537725">Шурупы с шестигранной головкой короба</category>
+      <category id="7538159" parentId="7538008">Дюбель-гвоздь металлический пластиковый контейнер</category>
+      <category id="7538160" parentId="7537557">Конфирматы</category>
+      <category id="7538161" parentId="7537557">Кляймеры</category>
+      <category id="7538162" parentId="7538160">Конфирматы пластиковый контейнер</category>
+      <category id="7538163" parentId="7538160">Конфирматы короба</category>
+      <category id="7538164" parentId="7538160">Конфирматы картонная упаковка</category>
+      <category id="7538165" parentId="7537545">Саморезы оконные</category>
+      <category id="7538166" parentId="7538165">Саморезы оконные пластиковый контейнер</category>
+      <category id="7538167" parentId="7538165">Саморезы оконные картонная упаковка</category>
+      <category id="7538168" parentId="7537557">Фиксаторы арматуры</category>
+      <category id="7538169" parentId="7537786">Хомуты для крепления сантехнических труб</category>
+      <category id="7538170" parentId="7537557">Крючки г-образные</category>
+      <category id="7538171" parentId="7538170">Крючки г-образные пластиковый контейнер</category>
+      <category id="7538172" parentId="7537786">Хомуты нейлоновые</category>
+      <category id="7538173" parentId="7537786">Хомуты червячные</category>
+      <category id="7538175" parentId="7537783">Саморезы для гипсокартона, крупная резьба (к дереву) пластиковый контейнер</category>
+      <category id="7538176" parentId="7537783">Саморезы для гипсокартона, крупная резьба (к дереву) картонная упаковка</category>
+      <category id="7538177" parentId="7537783">Саморезы для гипсокартона крупная резьба (к дереву) короба</category>
+      <category id="7538178" parentId="7537784">Саморезы для гипсокартона, мелкая резьба (к металлу) пластиковый контейнер</category>
+      <category id="7538179" parentId="7537784">Саморезы для гипсокартона, мелкая резьба (к металлу) картонная упаковка</category>
+      <category id="7538180" parentId="7537784">Саморезы для гипсокартона, мелкая резьба (к металлу) короба</category>
+      <category id="7538181" parentId="7537441">Стенды WORTEX</category>
+      <category id="7538182" parentId="7537545">Шуруп-шпильки</category>
+      <category id="7538183" parentId="7538182">Шуруп-шпильки картонная упаковка</category>
+      <category id="7538184" parentId="7537491">Щетки угольные для электроинструмента</category>
+      <category id="7538185" parentId="7537443">Столовая посуда</category>
+      <category id="7538186" parentId="7537443">Кухонная утварь и инвентарь</category>
+      <category id="7538187" parentId="7537443">Столовые приборы</category>
+      <category id="7538188" parentId="7537443">Хранение</category>
+      <category id="7538189" parentId="7537443">Украшения для стола и аксессуары</category>
+      <category id="7538190" parentId="7537443">Товары для уборки</category>
+      <category id="7538191" parentId="7537443">Баня</category>
+      <category id="7538192" parentId="7537443">Ванная и туалет</category>
+      <category id="7538193" parentId="7537443">Домашнее хозяйство и организация</category>
+      <category id="7538194" parentId="7537443">Спорт и развлечения</category>
+      <category id="7538195" parentId="7537443">Товары для пикника</category>
+      <category id="7538196" parentId="7537443">Товары для туризма</category>
+      <category id="7538197" parentId="7537443">Сад и огород</category>
+      <category id="7538198" parentId="7538117">Карабины винтовые</category>
+      <category id="7538199" parentId="7538188">Контейнеры и формы</category>
+      <category id="7538200" parentId="7538047">Кастрюли</category>
+      <category id="7538201" parentId="7538200">Кастрюли из жаропрочного стекла</category>
+      <category id="7538203" parentId="7537671">Дюбель распорный четырехсегментный</category>
+      <category id="7538204" parentId="7538203">Дюбель распорный четырехсегментный пластиковый контейнер</category>
+      <category id="7538205" parentId="7538203">Дюбель распорный четырехсегментный картонная упаковка</category>
+      <category id="7538207" parentId="7537445">Анкер потолочный</category>
+      <category id="7538208" parentId="7537545">Саморезы кровельные увеличенное сверло(12.5мм)</category>
+      <category id="7538209" parentId="7537605">ЗАПАСНЫЕ ЧАСТИ ДЛЯ МОТОКОС</category>
+      <category id="7538210" parentId="7537597">Гвозди финишные бронза</category>
+      <category id="7538211" parentId="7538210">Гвозди финишные бронза пластиковый контейнер</category>
+      <category id="7538212" parentId="7537597">Гвозди финишные медь</category>
+      <category id="7538214" parentId="7538097">Болт шестигранный зип-лок</category>
+      <category id="7538215" parentId="7538053">Винт с потайной головкой зип-лок</category>
+      <category id="7538216" parentId="7538060">Винт для мебельной фурнитуры зип-лок</category>
+      <category id="7538217" parentId="7538067">Гайка шестигранная зип-лок</category>
+      <category id="7538218" parentId="7537783">Саморезы для гипсокартона, крупная резьба (к дереву) зип-лок</category>
+      <category id="7538219" parentId="7537784">Саморезы для гипсокартона, мелкая резьба (к металлу) зип-лок</category>
+      <category id="7538220" parentId="7538127">Саморезы с прессшайбой зип-лок</category>
+      <category id="7538221" parentId="7538148">Шурупы универсальные желтый цинк зип-лок</category>
+      <category id="7538222" parentId="7538089">Шайба плоская зип-лок</category>
+      <category id="7538223" parentId="7538090">Шайба плоская увеличенная зип-лок</category>
+      <category id="7538224" parentId="7538005">Винт барашковый</category>
+      <category id="7538225" parentId="7538224">Винт барашковый пластиковый контейнер</category>
+      <category id="7538226" parentId="7538004">Блоки двойные нейлон</category>
+      <category id="7538227" parentId="7538004">Блоки одинарные металл</category>
+      <category id="7538228" parentId="7538004">Блоки одинарные нейлон</category>
+      <category id="7538230" parentId="7537597">Гвозди финишные латунь</category>
+      <category id="7538231" parentId="7538230">Гвозди финишные латунь пластиковый контейнер</category>
+      <category id="7538232" parentId="7537725">Шурупы с шестигранной головкой поштучно</category>
+      <category id="7538233" parentId="7537545">Саморезы для гипсоволоконных листов (к металлу)</category>
+      <category id="7538234" parentId="7538233">Саморезы для гипсоволоконных листов (к металлу) пластиковый контейнер</category>
+      <category id="7538235" parentId="7538233">Саморезы для гипсоволоконных листов (к металлу) картонная упаковка</category>
+      <category id="7538236" parentId="7537671">Дюбель для пустотелых конструкций (бабочка)</category>
+      <category id="7538237" parentId="7538236">Дюбель для пустотелых конструкций (бабочка) пластиковый контейнер</category>
+      <category id="7538238" parentId="7538038">Пластины гвоздевые</category>
+      <category id="7538239" parentId="7538038">Пластины оконные</category>
+      <category id="7538240" parentId="7538038">Опоры балки</category>
+      <category id="7538241" parentId="7538038">Опоры бруса</category>
+      <category id="7538242" parentId="7538038">Уголки скользящие</category>
+      <category id="7538243" parentId="7538038">Уголки узкие</category>
+      <category id="7538244" parentId="7538038">Лента перфорированная прямая</category>
+      <category id="7538245" parentId="7538038">Лента перфорированная волна</category>
+      <category id="7538246" parentId="7538038">Лента перфорированная тарная</category>
+      <category id="7538247" parentId="7538038">Лента перфорированная для теплых полов</category>
+      <category id="7538248" parentId="7538038">Проушины для замка</category>
+      <category id="7538249" parentId="7538038">Основания столба анкерные</category>
+      <category id="7538250" parentId="7538038">Кронштейн П-образный</category>
+      <category id="7538251" parentId="7538038">Опоры скользящие</category>
+      <category id="7538252" parentId="7538038">Опоры регулируемые</category>
+      <category id="7538253" parentId="7538038">Лента монтажная перфорированная  LM</category>
+      <category id="7538254" parentId="7538038">Держатели балки</category>
+      <category id="7538255" parentId="7538038">Пластины крепежные</category>
+      <category id="7538256" parentId="7538038">Уголки мебельные металлические</category>
+      <category id="7538257" parentId="7538038">Уголки крепежные усиленные</category>
+      <category id="7538258" parentId="7538038">Уголки крепежные равносторонние</category>
+      <category id="7538259" parentId="7538038">Уголки крепежные под 135 градусов</category>
+      <category id="7538260" parentId="7538038">Уголки крепежные ассиметричные</category>
+      <category id="7538261" parentId="7538038">Уголки крепежные анкерные</category>
+      <category id="7538262" parentId="7538038">Пластины соединительные</category>
+      <category id="7538263" parentId="7538038">Уголки крепежные</category>
+      <category id="7538264" parentId="7538038">Уголки крепежные Z-образные</category>
+      <category id="7538265" parentId="7538236">Дюбель для пустотелых конструкций (бабочка) картонная упаковка</category>
+      <category id="7538266" parentId="7537545">Саморезы для сэндвич-панелей</category>
+      <category id="7538267" parentId="7538266">Саморезы для сэндвич-панелей картонная упаковка</category>
+      <category id="7538268" parentId="7538038">Крепеж Т-образный</category>
+      <category id="7538269" parentId="7537685">Буры почвенные, прочие принадлежности ECO</category>
+      <category id="7538270" parentId="7537597">Гвозди строительные</category>
+      <category id="7538271" parentId="7538270">Гвозди строительные картонная упаковка</category>
+      <category id="7538272" parentId="7537557">Крючки о-образные</category>
+      <category id="7538273" parentId="7537557">Крючки с-образные</category>
+      <category id="7538274" parentId="7538272">Крючки о-образные картонная упаковка</category>
+      <category id="7538275" parentId="7538273">Крючки с-образные пластиковый контейнер</category>
+      <category id="7538276" parentId="7538273">Крючки с-образные картонная упаковка</category>
+      <category id="7538277" parentId="7538170">Крючки Г-образные картонная упаковка</category>
+      <category id="7538278" parentId="7537569">Заклепка вытяжная алюминий/сталь, RAL</category>
+      <category id="7538279" parentId="7538272">Крючки о-образные пластиковый контейнер</category>
+      <category id="7538280" parentId="7537569">Заклепка резьбовая потайной бортик</category>
+      <category id="7538281" parentId="7537569">Заклепка резьбовыая уменьшенный бортик</category>
+      <category id="7538282" parentId="7537569">Заклепка резьбовая цилиндрический бортик</category>
+      <category id="7538283" parentId="7538280">Заклепки резьбовые потайной бортик картонная упаковка</category>
+      <category id="7538284" parentId="7538281">Заклепки резьбовые уменьшенный бортик картонная упаковка</category>
+      <category id="7538285" parentId="7538282">Заклепки резьбовые цилиндрический бортик картонная упаковка</category>
+      <category id="7538286" parentId="7538186">Доски разделочные</category>
+      <category id="7538287" parentId="7538186">Дуршлаги, воронки и ситечки</category>
+      <category id="7538288" parentId="7538186">Лопатки кухонные</category>
+      <category id="7538289" parentId="7538186">Щипцы кухонные</category>
+      <category id="7538290" parentId="7538186">Венчики, кисточки</category>
+      <category id="7538291" parentId="7538186">Прихватки и рукавицы</category>
+      <category id="7538292" parentId="7538186">Скалки</category>
+      <category id="7538293" parentId="7538186">Терки</category>
+      <category id="7538294" parentId="7538186">Штопоры и открывашки</category>
+      <category id="7538295" parentId="7538186">Ножницы кухонные</category>
+      <category id="7538296" parentId="7538186">Подставки под горячее</category>
+      <category id="7538297" parentId="7538186">Прессы для чеснока, орехоколы</category>
+      <category id="7538298" parentId="7538186">Молотки кухонные</category>
+      <category id="7538299" parentId="7538186">Помощники на кухне</category>
+      <category id="7538300" parentId="7538187">Ножи столовые (штучные и наборы)</category>
+      <category id="7538301" parentId="7538187">Вилки столовые (штучные и наборы)</category>
+      <category id="7538302" parentId="7538187">Ложки столовые (штучные и наборы)</category>
+      <category id="7538303" parentId="7538187">Ложки чайные и кофейные (штучные и наборы)</category>
+      <category id="7538304" parentId="7538187">Наборы столовых приборов</category>
+      <category id="7538305" parentId="7538186">Ложки кухонные</category>
+      <category id="7538306" parentId="7538111">Кувшины, декантеры, штофы</category>
+      <category id="7538307" parentId="7538047">Чайники</category>
+      <category id="7538309" parentId="7538111">Кружки и чашки</category>
+      <category id="7538310" parentId="7538047">Крышки</category>
+      <category id="7538311" parentId="7538047">Турки</category>
+      <category id="7538312" parentId="7538185">Блюда, лотки</category>
+      <category id="7538313" parentId="7538185">Тарелки</category>
+      <category id="7538314" parentId="7538185">Салатники</category>
+      <category id="7538315" parentId="7538185">Сахарницы</category>
+      <category id="7538316" parentId="7538185">Мороженницы, креманки, десертницы</category>
+      <category id="7538317" parentId="7538185">Вазы для фруктов</category>
+      <category id="7538318" parentId="7538185">Масленки</category>
+      <category id="7538319" parentId="7538188">Банки</category>
+      <category id="7538320" parentId="7538188">Хлебницы</category>
+      <category id="7538321" parentId="7538189">Солонки, перечницы, мельницы, наборы для специй, стаканчики для зубочисток</category>
+      <category id="7538322" parentId="7538189">Салфетницы</category>
+      <category id="7538323" parentId="7538189">Подносы</category>
+      <category id="7538324" parentId="7538190">Ведра, тазы</category>
+      <category id="7538325" parentId="7538190">Баки, корзины и контейнеры для мусора</category>
+      <category id="7538326" parentId="7538190">Губки, мочалки</category>
+      <category id="7538327" parentId="7538190">Салфетки для уборки, тряпки</category>
+      <category id="7538328" parentId="7538190">Швабры, насадки, рукоятки, щетки, метлы, совки и наборы для уборки</category>
+      <category id="7538329" parentId="7538190">Коврики придверные</category>
+      <category id="7538330" parentId="7538192">Товары для ванной комнаты</category>
+      <category id="7538331" parentId="7538192">Товары для туалета</category>
+      <category id="7538332" parentId="7538193">Вешалки</category>
+      <category id="7538333" parentId="7538193">Органайзеры (системы хранения)</category>
+      <category id="7538334" parentId="7538193">Сумки</category>
+      <category id="7538335" parentId="7538193">Сушилки для белья</category>
+      <category id="7538336" parentId="7538193">Гладильные доски и чехлы</category>
+      <category id="7538337" parentId="7538193">Щетки и ролики для одежды, рожки для обуви</category>
+      <category id="7538338" parentId="7538194">Санки, тюбинг</category>
+      <category id="7538339" parentId="7538195">Мангалы</category>
+      <category id="7538340" parentId="7538195">Шампуры и решетки</category>
+      <category id="7538341" parentId="7538195">Одноразовая посуда</category>
+      <category id="7538342" parentId="7538195">Наборы для пикника</category>
+      <category id="7538343" parentId="7538195">Столы, стулья, кресла кемпинговые</category>
+      <category id="7538344" parentId="7538196">Термосы</category>
+      <category id="7538345" parentId="7538197">Вазоны и горшки для цветов</category>
+      <category id="7538346" parentId="7538197">Лейки</category>
+      <category id="7538347" parentId="7538113">Зажимы алюминивые</category>
+      <category id="7538348" parentId="7537540">Цепные барабаны (звездочки) для цепных пил</category>
+      <category id="7538349" parentId="7538212">Гвозди финишные медь пластиковый контейнер</category>
+      <category id="7538350" parentId="7537597">Гвозди финишные цинк</category>
+      <category id="7538351" parentId="7538350">Гвозди финишные цинк пластиковый контейнер</category>
+      <category id="7538352" parentId="7537439">Сетка</category>
+      <category id="7538353" parentId="7537663">Стропы</category>
+      <category id="7538354" parentId="7537663">Стяжные ремни</category>
+      <category id="7538355" parentId="7537671">Дюбель кровельный GOK</category>
+      <category id="7538356" parentId="7537671">Дюбель кровельный винтовой</category>
+      <category id="7538357" parentId="7537786">Хомуты-стяжки</category>
+      <category id="7538358" parentId="7537441">Стенды ТДД</category>
+      <category id="7538359" parentId="7537671">Дюбель рамный без шурупа</category>
+      <category id="7538360" parentId="7538359">Дюбель рамный без шурупа картонная упаковка</category>
+      <category id="7538361" parentId="7537671">Дюбель распорный тип N (нейлон)</category>
+      <category id="7538362" parentId="7538361">Дюбель распорный тип N нейлон картонная упаковка</category>
+      <category id="7538363" parentId="7538361">Дюбель распорный тип N нейлон пластиковый контейнер</category>
+      <category id="7538364" parentId="7538097">Болт шестигранный 5.8 весовой</category>
+      <category id="7538365" parentId="7538067">Гайка шестигранная весовая</category>
+      <category id="7538366" parentId="7538088">Шайба гровер весовая</category>
+      <category id="7538367" parentId="7538089">Шайба плоская весовая</category>
+      <category id="7538368" parentId="7538090">Шайба плоская увеличенная весовая</category>
+      <category id="7538369" parentId="7537783">Саморезы для гипсокартона, крупная резьба (к дереву) весовые</category>
+      <category id="7538370" parentId="7537784">Саморезы для гипсокартона, мелкая резьба (к металлу) весовые</category>
+      <category id="7538371" parentId="7538148">Шурупы универсальные желтый цинк весовые</category>
+      <category id="7538372" parentId="7537671">Дюбель для пенобетона</category>
+      <category id="7538373" parentId="7538372">Дюбель для пенобетона картонная упаковка</category>
+      <category id="7538374" parentId="7538372">Дюбель для пенобетона пластиковый контейнер</category>
+      <category id="7538375" parentId="7537671">Дюбель распорный тип K</category>
+      <category id="7538376" parentId="7538375">Дюбель распорный тип K пластиковый контейнер</category>
+      <category id="7538377" parentId="7538375">Дюбель распорный тип K картонная упаковка</category>
+      <category id="7538378" parentId="7537671">Дюбель распорный тип S</category>
+      <category id="7538379" parentId="7538378">Дюбель распорный тип S пластиковый контейнер</category>
+      <category id="7538380" parentId="7538378">Дюбель распорный тип S картонная упаковка</category>
+      <category id="7538381" parentId="7537671">Дюбель распорный тип T</category>
+      <category id="7538382" parentId="7538381">Дюбель распорный тип T пластиковый контейнер</category>
+      <category id="7538383" parentId="7538381">Дюбель распорный тип T картонная упаковка</category>
+      <category id="7538384" parentId="7537671">Дюбель распорный тип U</category>
+      <category id="7538385" parentId="7538384">Дюбель распорный тип U пластиковый контейнер</category>
+      <category id="7538386" parentId="7538384">Дюбель распорный тип U картонная упаковка</category>
+      <category id="7538387" parentId="7538052">Дюбель для гипсокартонных плит DRIVA картонная упаковка</category>
+      <category id="7538388" parentId="7537671">Дюбель для хомут-стяжки</category>
+      <category id="7538389" parentId="7538388">Дюбель для хомут-стяжки картонная упаковка</category>
+      <category id="7538390" parentId="7538388">Дюбель для хомут-стяжки пластковый контейнер</category>
+      <category id="7538391" parentId="7537557">Серьги для кабеля</category>
+      <category id="7538392" parentId="7538391">Серьга для кабеля картонная упаковка</category>
+      <category id="7538393" parentId="7537557">Площадка для хомута стяжки</category>
+      <category id="7538394" parentId="7538393">Площадка для хомута-стяжки пластиковый контейнер</category>
+      <category id="7538395" parentId="7537671">Дюбель-хомут для круглого кабеля</category>
+      <category id="7538396" parentId="7538395">Дюбель-хомут для круглого кабеля пластиковый контейнер</category>
+      <category id="7538397" parentId="7537671">Дюбель-хомут для прямоугольного кабеля</category>
+      <category id="7538398" parentId="7538397">Дюбель-хомут для прямоугольного кабеля пластиковый контейнер</category>
+      <category id="7538399" parentId="7537592">Сверла по металлу цилиндрический хвостовик ВОЛАТ</category>
+      <category id="7538400" parentId="7538067">Гайка шестигранная поштучно</category>
+      <category id="7538402" parentId="7537680">Шурупы по бетону весовые</category>
+      <category id="7538403" parentId="7537467">Анкеры рамные весовые</category>
+      <category id="7538404" parentId="7538038">Основания столба забивные</category>
+      <category id="7538405" parentId="7538038">Соединители угловые</category>
+      <category id="7538406" parentId="7538384">Дюбель распорный тип U зип-лок</category>
+      <category id="7538407" parentId="7538127">Саморезы с прессшайбой весовые</category>
+      <category id="7538408" parentId="7538200">Кастрюли эмалированные PERFECTO LINEA</category>
+      <category id="7538409" parentId="7537443">Бытовая техника</category>
+      <category id="7538410" parentId="7538409">Утюги</category>
+      <category id="7538411" parentId="7538409">Чайники электрические и Термопоты</category>
+      <category id="7538412" parentId="7538409">Вентиляторы</category>
+      <category id="7538413" parentId="7538130">Саморезы для листового металла весовые</category>
+      <category id="7538414" parentId="7538200">Кастрюли с антипригарным покрытием</category>
+      <category id="7538416" parentId="7537557">Химические анкеры</category>
+      <category id="7538417" parentId="7537445">Анкер-клин</category>
+      <category id="7538418" parentId="7537545">Саморезы для фасадных систем</category>
+      <category id="7538419" parentId="7538418">Саморезы для фасадных систем пластиковый контейнер</category>
+      <category id="7538420" parentId="7538418">Саморезы для фасадных систем картонная упаковка</category>
+      <category id="7538421" parentId="7538054">Винт с полусферической головкой зип-лок</category>
+      <category id="7538422" parentId="7538278">Заклепка вытяжная алюминий/сталь, RAL зип-лок</category>
+      <category id="7538423" parentId="7538278">Заклепка вытяжная алюминий/сталь, RAL пластиковый контейнер</category>
+      <category id="7538424" parentId="7537671">Дюбель металлический для пустотелых конструкций (Molly)</category>
+      <category id="7538425" parentId="7537569">Заклепка вытяжная алюминий/сталь, цинк</category>
+      <category id="7538426" parentId="7537569">Заклепка вытяжная сталь/сталь, цинк</category>
+      <category id="7538427" parentId="7538425">Заклепка вытяжная алюминий/сталь, цинк пластиковый контейнер</category>
+      <category id="7538428" parentId="7538425">Заклепка вытяжная алюминий/сталь, цинк картонная упаковка</category>
+      <category id="7538429" parentId="7538426">Заклепка вытяжная сталь/сталь, цинк пластиковый контейнер</category>
+      <category id="7538430" parentId="7538426">Заклепка вытяжная сталь/сталь, цинк картонная упаковка</category>
+      <category id="7538431" parentId="7537494">Искробезопасный инструмент</category>
+      <category id="7538432" parentId="7537725">Шурупы с шестигранной головкой зип-лок</category>
+      <category id="7538433" parentId="7538088">Шайба гровер зип-лок</category>
+      <category id="7538435" parentId="7538186">Формы для льда</category>
+      <category id="7538436" parentId="7538186">Коврики для выпечки</category>
+      <category id="7538437" parentId="7538073">Гайка барашковая зип-лок</category>
+      <category id="7538438" parentId="7538068">Гайка со стопорным кольцом зип-лок</category>
+      <category id="7538439" parentId="7538070">Гайка колпачковая зип-лок</category>
+      <category id="7538440" parentId="7537422">Дальномеры, цифровые рулетки</category>
+      <category id="7538441" parentId="7537422">Нивелиры лазерные и построители плоскостей</category>
+      <category id="7538442" parentId="7537422">Детекторы проводки, термодетекторы</category>
+      <category id="7538443" parentId="7537422">Курвиметры</category>
+      <category id="7538444" parentId="7537422">Угломеры</category>
+      <category id="7538445" parentId="7537422">Эндоскопы</category>
+      <category id="7538446" parentId="7538072">Гайка с фланцем зип-лок</category>
+      <category id="7538447" parentId="7537422">Нивелиры оптические</category>
+      <category id="7538448" parentId="7537422">Лазеры для укладки плитки</category>
+      <category id="7538449" parentId="7537422">Лазеры</category>
+      <category id="7538450" parentId="7537422">Ротационные лазеры</category>
+      <category id="7538451" parentId="7538425">Заклепка вытяжная алюминий/сталь, цинк зип-лок</category>
+      <category id="7538452" parentId="7538426">Заклепка вытяжная сталь/сталь, цинк зип-лок</category>
+      <category id="7538453" parentId="7537426">Розетки и вилки силовые</category>
+      <category id="7538454" parentId="7538409">Весы</category>
+      <category id="7538455" parentId="7538266">Саморезы для сэндвич-панелей короба</category>
+      <category id="7538456" parentId="7538409">Блендеры</category>
+      <category id="7538457" parentId="7537557">Скоба для крепления прямоугольного кабеля с гвоздем</category>
+      <category id="7538458" parentId="7537557">Скобы для крепления круглого кабеля с гвоздем</category>
+      <category id="7538459" parentId="7538458">Скоба для крепления круглого кабеля с гвоздем зип-лок</category>
+      <category id="7538460" parentId="7538457">Скоба для крепления прямоугольного кабеля с гвоздем зип-лок</category>
+      <category id="7538461" parentId="7537622">Респираторы</category>
+      <category id="7538462" parentId="7537622">Маски, полумаски</category>
+      <category id="7538463" parentId="7537786">Хомуты-стяжки с монтажным отверстием</category>
+      <category id="7538464" parentId="7537948">Лопаты</category>
+      <category id="7538465" parentId="7538464">Лопаты штыковые</category>
+      <category id="7538466" parentId="7538464">Лопаты совковые</category>
+      <category id="7538467" parentId="7538464">Лопаты прочие</category>
+      <category id="7538468" parentId="7537948">Грабли</category>
+      <category id="7538469" parentId="7538468">Грабли веерные</category>
+      <category id="7538470" parentId="7538468">Грабли прямые</category>
+      <category id="7538471" parentId="7537948">Черенки</category>
+      <category id="7538472" parentId="7537948">Косы, вилы и пр.</category>
+      <category id="7538473" parentId="7537545">Шурупы DIN 7981 с полусферической головкой острые</category>
+      <category id="7538475" parentId="7537557">Набор для крепления унитаза</category>
+      <category id="7538476" parentId="7537426">Лампы</category>
+      <category id="7538477" parentId="7538476">Лампы светодиодные (LED)</category>
+      <category id="7538478" parentId="7538476">Лампы галогенные</category>
+      <category id="7538479" parentId="7537557">Набор для крепления раковины</category>
+      <category id="7538480" parentId="7537495">Ключи комбинированные ВОЛАТ</category>
+      <category id="7538481" parentId="7538088">Шайба гровер короба</category>
+      <category id="7538482" parentId="7538068">Гайка со стопорным кольцом короба</category>
+      <category id="7538483" parentId="7538070">Гайка колпачковая короба</category>
+      <category id="7538484" parentId="7538071">Гайка удлиняющая короба</category>
+      <category id="7538485" parentId="7538073">Гайка барашковая короба</category>
+      <category id="7538486" parentId="7538072">Гайка с фланцем короба</category>
+      <category id="7538487" parentId="7538038">Уголки для бетона</category>
+      <category id="7538488" parentId="7537436">Скобяные изделия</category>
+      <category id="7538489" parentId="7538488">Задвижка/крючок</category>
+      <category id="7538490" parentId="7538488">Петля накладная</category>
+      <category id="7538491" parentId="7538488">Петля накладная фигурная</category>
+      <category id="7538492" parentId="7538488">Петля-стрела</category>
+      <category id="7538493" parentId="7538488">Петля-стрела фигурная</category>
+      <category id="7538494" parentId="7538488">Ручка-скоба</category>
+      <category id="7538495" parentId="7538488">Уголок фигурный</category>
+      <category id="7538496" parentId="7538270">Гвозди строительные короба</category>
+      <category id="7538497" parentId="7537445">Анкер латунный (цанга)</category>
+      <category id="7538498" parentId="7538497">Цанги латунные картонная упаковка</category>
+      <category id="7538499" parentId="7538497">Цанги латунные зип-лок</category>
+      <category id="7538500" parentId="7537449">Аккумуляторные ударные дрели-шуруповерты</category>
+      <category id="7538501" parentId="7538409">Сэндвичницы</category>
+      <category id="7538502" parentId="7538488">Подвески мебельные</category>
+      <category id="7538503" parentId="7538186">Пакеты для пищевых продуктов</category>
+      <category id="7538504" parentId="7538208">Саморезы кровельные увеличенное сверло(12.5мм) пластиковый контейнер</category>
+      <category id="7538505" parentId="7538208">Саморезы кровельные увеличенное сверло(12.5мм) картонная упаковка</category>
+      <category id="7538506" parentId="7538208">Саморезы кровельные увеличенное сверло(12.5мм) короба</category>
+      <category id="7538507" parentId="7537985">Снегоотвал FA-SH060 (1380мм) - комплектующие</category>
+      <category id="7538508" parentId="7538004">Крючки S-образные</category>
+      <category id="7538509" parentId="7538068">Гайка со стопорным кольцом картонная упаковка</category>
+      <category id="7538510" parentId="7538089">Шайба плоская пластиковый контейнер</category>
+      <category id="7538511" parentId="7538090">Шайба плоская увеличенная поштучно</category>
+      <category id="7538512" parentId="7538089">Шайба плоская поштучно</category>
+      <category id="7538513" parentId="7538278">Заклепка вытяжная алюминий/сталь, RAL короба</category>
+      <category id="7538514" parentId="7538425">Заклепка вытяжная алюминий/сталь, цинк короба</category>
+      <category id="7538515" parentId="7538426">Заклепка вытяжная сталь/сталь, цинк короба</category>
+      <category id="7538516" parentId="7537444">Водоснабжение</category>
+      <category id="7538518" parentId="7537444">Отопление и теплый пол</category>
+      <category id="7538520" parentId="7538518">Обжимные фитинги для металлопластиковых труб</category>
+      <category id="7538521" parentId="7538516">Шаровые краны Valtec</category>
+      <category id="7538522" parentId="7538518">Коллекторные фитинги</category>
+      <category id="7538523" parentId="7538409">Фены</category>
+      <category id="7538524" parentId="7537671">Дюбель рамный с шурупом</category>
+      <category id="7538525" parentId="7538524">Дюбель рамный с шурупом картонная упаковка</category>
+      <category id="7538526" parentId="7537671">Дюбель с крючком</category>
+      <category id="7538527" parentId="7538526">Дюбель с крючком зип-лок</category>
+      <category id="7538528" parentId="7538526">Дюбель с крючком пластиковый контейнер</category>
+      <category id="7538529" parentId="7537440">Сувениры WORTEX</category>
+      <category id="7538530" parentId="7538488">Опора для перил</category>
+      <category id="7538531" parentId="7538313">Тарелки керамические</category>
+      <category id="7538532" parentId="7538313">Тарелки стеклокерамические</category>
+      <category id="7538533" parentId="7538313">Тарелки пластмассовые</category>
+      <category id="7538534" parentId="7538314">Салатники керамические</category>
+      <category id="7538535" parentId="7538314">Салатники стеклокерамические</category>
+      <category id="7538536" parentId="7538314">Салатники стеклянные</category>
+      <category id="7538537" parentId="7538314">Салатники пластмассовые</category>
+      <category id="7538538" parentId="7537534">Компрессоры DGM</category>
+      <category id="7538539" parentId="7538307">Чайники из нержавеющей стали</category>
+      <category id="7538540" parentId="7538307">Чайники эмалированные</category>
+      <category id="7538541" parentId="7538476">Лампы накаливания (ЛОН)</category>
+      <category id="7538542" parentId="7537447">Инструмент для газосиликатных блоков</category>
+      <category id="7538543" parentId="7538160">Конфирматы зип-лок</category>
+      <category id="7538544" parentId="7537597">Гвозди шиферные</category>
+      <category id="7538545" parentId="7537592">Сверла по металлу цилиндрический хвостовик WORTEX</category>
+      <category id="7538546" parentId="7537426">Лента светодиодная и драйвера к ней</category>
+      <category id="7538547" parentId="7537426">Светильники светодиодные</category>
+      <category id="7538548" parentId="7538200">Кастрюли из нержавеющей стали</category>
+      <category id="7538549" parentId="7537435">Антифриз, тосол, стеклоомыватели</category>
+      <category id="7538550" parentId="7538409">Мультиварки</category>
+      <category id="7538551" parentId="7537545">Саморезы с прессшайбой RAL</category>
+      <category id="7538552" parentId="7538551">Саморезы с прессшайбой цветные зип-лок</category>
+      <category id="7538553" parentId="7538551">Саморезы с прессшайбой цветные пластиковый контейнер</category>
+      <category id="7538554" parentId="7538551">Саморезы с прессшайбой цветные картонная упаковка</category>
+      <category id="7538555" parentId="7538551">Саморезы с прессшайбой цветные короба</category>
+      <category id="7538556" parentId="7537597">Гвозди ершеные</category>
+      <category id="7538557" parentId="7538182">Шуруп-шпильки короба</category>
+      <category id="7538558" parentId="7538200">Кастрюли эмалированные OMELIA</category>
+      <category id="7538559" parentId="7537557">Уголки мебельные пластиковые</category>
+      <category id="7538560" parentId="7538556">Гвозди ершеные пластиковый контейнер</category>
+      <category id="7538561" parentId="7538556">Гвозди ершеные картонная упаковка</category>
+      <category id="7538562" parentId="7538409">Кофеварки</category>
+      <category id="7538563" parentId="7538008">Дюбель-гвоздь металлический картонная упаковка</category>
+      <category id="7538564" parentId="7538035">Дюбель для газосиликатных блоков картонная упаковка</category>
+      <category id="7538565" parentId="7537426">Блоки, разветвители, переходники, адаптеры</category>
+      <category id="7538566" parentId="7537426">Свечи светодиодные</category>
+      <category id="7538567" parentId="7537604">Удлинители 20м</category>
+      <category id="7538568" parentId="7537429">Рукав пропановый</category>
+      <category id="7538569" parentId="7538182">Шуруп-шпильки поштучно</category>
+      <category id="7538570" parentId="7538071">Гайка удлиняющая зип-лок</category>
+      <category id="7538571" parentId="7538409">Тостеры</category>
+      <category id="7538572" parentId="7537449">Аккумуляторные гайковерты</category>
+      <category id="7538573" parentId="7537428">Лодочные моторы</category>
+      <category id="7538574" parentId="7538424">Дюбель металлический для пустотелых конструкций поштучно</category>
+      <category id="7538575" parentId="7538236">Дюбель для пустотелых конструкций (бабочка) зип-лок</category>
+      <category id="7538576" parentId="7538130">Саморезы для листового металла зип-лок</category>
+      <category id="7538577" parentId="7537434">Очистители высокого давления WORTEX</category>
+      <category id="7538578" parentId="7537604">Фильтры сетевые</category>
+      <category id="7538579" parentId="7537441">Стенды Эргопак</category>
+      <category id="7538580" parentId="7537747">Измельчители для кормов</category>
+      <category id="7538581" parentId="7537747">Садовые измельчители</category>
+      <category id="7538582" parentId="7537557">Фиксаторы задней стенки</category>
+      <category id="7538583" parentId="7537557">Шкант мебельный</category>
+      <category id="7538584" parentId="7538583">Шкант мебельный деревянный зип-лок</category>
+      <category id="7538585" parentId="7537965">Стенды OLEO-MAC для MILE</category>
+      <category id="7538586" parentId="7538409">Сушилки для овощей и фруктов</category>
+      <category id="7538587" parentId="7537557">Винт-стяжка мебельный</category>
+      <category id="7538588" parentId="7538409">Мясорубки</category>
+      <category id="7538589" parentId="7538488">Кронштейн мебельный</category>
+      <category id="7538590" parentId="7537525">Круги лепестковые со ступицей</category>
+      <category id="7538591" parentId="7538488">Накладка дверная</category>
+      <category id="7538592" parentId="7538488">Петля карточная</category>
+      <category id="7538593" parentId="7538488">Кронштейн с ребром жесткости</category>
+      <category id="7538594" parentId="7538488">Пружина дверная</category>
+      <category id="7538595" parentId="7538038">Крепеж для ГКЛ</category>
+      <category id="7538596" parentId="7538595">Соединитель профиля (краб)</category>
+      <category id="7538597" parentId="7538595">Удлинитель профиля</category>
+      <category id="7538598" parentId="7537426">Выключатели</category>
+      <category id="7538599" parentId="7537426">Розетки</category>
+      <category id="7538600" parentId="7538358">Торговля и снабжение</category>
+      <category id="7538601" parentId="7537557">Заглушки</category>
+      <category id="7538602" parentId="7538601">Заглушки для конфирмата зип-лок</category>
+      <category id="7538603" parentId="7538601">Заглушки для самореза PH2 зип-лок</category>
+      <category id="7538604" parentId="7537557">Набор для крепления сантехнических труб</category>
+      <category id="7538605" parentId="7537597">Гвозди декоративные зип-лок</category>
+      <category id="7538606" parentId="7537653">Проволока сварочная ф0,6мм</category>
+      <category id="7538607" parentId="7538152">Шурупы универсальные белый цинк зип-лок</category>
+      <category id="7538608" parentId="7538005">Болт в комплекте с гайкой и шайбами</category>
+      <category id="7538609" parentId="7537444">Канализация</category>
+      <category id="7538611" parentId="7537605">Головки триммерные и леска OREGON Gator SpeedLoad (леска в дисках)</category>
+      <category id="7538612" parentId="7538409">Бритвы электрические</category>
+      <category id="7538613" parentId="7538409">Машинки для стрижки волос</category>
+      <category id="7538614" parentId="7538409">Стайлеры для волос</category>
+      <category id="7538616" parentId="7537596">Саморезы кровельные цветные (металл/дерево) весовые</category>
+      <category id="7538617" parentId="7537703">Саморезы кровельные (металл/дерево) весовые</category>
+      <category id="7538618" parentId="7538601">Заглушки для анкера рамного зип-лок</category>
+      <category id="7538619" parentId="7538473">Шуруп DIN 7981 с полусферической головкой картонная упаковка</category>
+      <category id="7538620" parentId="7538544">Гвозди шиферные пластиковый контейнер</category>
+      <category id="7538621" parentId="7538544">Гвозди шиферные короба</category>
+      <category id="7538622" parentId="7537545">Шурупы с керамическим покрытием</category>
+      <category id="7538623" parentId="7538622">Шурупы с керамическим покрытием, со сверлом, PH2 картонная упаковка</category>
+      <category id="7538624" parentId="7538622">Шурупы с керамическим покрытием, острые, TORX 30 картонная упаковка</category>
+      <category id="7538625" parentId="7538516">Полипропиленовый водопровод</category>
+      <category id="7538626" parentId="7538488">Зацеп для роликов</category>
+      <category id="7538627" parentId="7537426">Внешние аккумуляторы, тестеры</category>
+      <category id="7538628" parentId="7538378">Дюбель распорный тип S зип-лок</category>
+      <category id="7538629" parentId="7538609">Арматура водосливная</category>
+      <category id="7538631" parentId="7537614">Электроды для наплавки абразивно изнашиваемых деталей</category>
+      <category id="7538632" parentId="7537426">Электропатроны</category>
+      <category id="7538633" parentId="7538097">Болт шестигранный 8.8 весовой</category>
+      <category id="7538634" parentId="7537815">Навесное оборудование для культиваторов Fermer FM-811MX</category>
+      <category id="7538635" parentId="7537815">Навесное оборудование для культиваторов Fermer FM-1011MX/1311MX/1511MX</category>
+      <category id="7538636" parentId="7538090">Шайба плоская увеличенная пластиковый контейнер</category>
+      <category id="7538637" parentId="7538224">Винт барашковый зип-лок</category>
+      <category id="7538638" parentId="7537597">Гвозди толевые</category>
+      <category id="7538639" parentId="7538516">Резьбовые латунные фитинги и краны Цветлит</category>
+      <category id="7538640" parentId="7538601">Заглушки для труб</category>
+      <category id="7538641" parentId="7538638">Гвозди толевые пластиковый контейнер</category>
+      <category id="7538642" parentId="7538638">Гвозди толевые короба</category>
+      <category id="7538643" parentId="7538516">Резьбовые латунные фитинги и краны General Fittings</category>
+      <category id="7538644" parentId="7538601">Заглушки под отверстие зип-лок</category>
+      <category id="7538645" parentId="7538038">Профиль L-образный</category>
+      <category id="7538646" parentId="7538038">Профиль U-образный</category>
+      <category id="7538647" parentId="7538038">Траверса монтажная</category>
+      <category id="7538648" parentId="7538488">Крючок-вешалка</category>
+      <category id="7538650" parentId="7537527">Ф 250мм</category>
+      <category id="7538651" parentId="7538488">Уголки оконные</category>
+      <category id="7538652" parentId="7538609">Водоотводная система</category>
+      <category id="7538653" parentId="7538516">Трубы напорные из полиэтилена</category>
+      <category id="7538654" parentId="7538266">Саморезы для сэндвич-панелей поштучно</category>
+      <category id="7538655" parentId="7538488">Кронштейн забора</category>
+      <category id="7538656" parentId="7537444">Водоочистка</category>
+      <category id="7538657" parentId="7538516">Шланги гибкие Универсал Бобруйск</category>
+      <category id="7538658" parentId="7538656">Фильтры для воды AquaFilter</category>
+      <category id="7538659" parentId="7537557">Скобы строительные</category>
+      <category id="7538660" parentId="7538409">Увлажнители воздуха</category>
+      <category id="7538661" parentId="7537435">Смазки аэрозольные, антидождь</category>
+      <category id="7538662" parentId="7537426">Садово-парковое освещение</category>
+      <category id="7538663" parentId="7538395">Дюбель-хомут для круглого кабеля зил-лок</category>
+      <category id="7538664" parentId="7538397">Дюбель-хомут для прямоугольного кабеля зип-лок</category>
+      <category id="7538665" parentId="7538488">Завёртка</category>
+      <category id="7538666" parentId="7538488">Петля рояльная</category>
+      <category id="7538667" parentId="7537449">Аккумуляторные углошлифмашины</category>
+      <category id="7538668" parentId="7537449">Аккумуляторные лобзики</category>
+      <category id="7538669" parentId="7537449">Аккумуляторные сабельные пилы</category>
+      <category id="7538670" parentId="7537449">Аккумуляторные циркулярные пилы</category>
+      <category id="7538671" parentId="7537449">Аккумуляторные фонари</category>
+      <category id="7538672" parentId="7537624">Элементы тачек КОМ</category>
+      <category id="7538673" parentId="7538656">Фильтры для воды Unicorn</category>
+      <category id="7538674" parentId="7538629">Сифоны Unicorn</category>
+      <category id="7538675" parentId="7538609">Трубы и фитинги для внутренней канализации</category>
+      <category id="7538676" parentId="7537444">Газ</category>
+      <category id="7538677" parentId="7538629">Водосливная арматура AlcaPlast</category>
+      <category id="7538678" parentId="7538488">Петля ввёртная</category>
+      <category id="7538679" parentId="7537957">Пилки по полимерным материалам</category>
+      <category id="7538680" parentId="7537957">Пилки по дереву с металлом</category>
+      <category id="7538681" parentId="7537432">Средства для борьбы с вредителями</category>
+      <category id="7538682" parentId="7537957">Наборы пилок лобзиковых</category>
+      <category id="7538683" parentId="7537440">Сувениры NORMANN</category>
+      <category id="7538684" parentId="7537440">Сувениры PERFECTO</category>
+      <category id="7538685" parentId="7537449">Аккумуляторный многофункциональный инструмент (реноватор)</category>
+      <category id="7538686" parentId="7538313">Тарелки стеклянные</category>
+      <category id="7538687" parentId="7537444">Смесители</category>
+      <category id="7538688" parentId="7538687">Смесители Арникон</category>
+      <category id="7538689" parentId="7537441">Стенды NORMANN</category>
+      <category id="7538690" parentId="7538516">Водопроводные компрессионные фитинги и краны</category>
+      <category id="7538691" parentId="7538690">Компрессионные фитинги AV Engineering</category>
+      <category id="7538692" parentId="7537434">Очистители высокого давления MAKITA</category>
+      <category id="7538693" parentId="7537426">Таймеры</category>
+      <category id="7538694" parentId="7537786">Хомуты червячные с просечками</category>
+      <category id="7538695" parentId="7537426">Датчики движения</category>
+      <category id="7538696" parentId="7537425">Наборы инструмента</category>
+      <category id="7538697" parentId="7537426">Электротехника TDM</category>
+      <category id="7538698" parentId="7537705">Саморезы кровельные цветные (металл/металл) весовые</category>
+      <category id="7538699" parentId="7537704">Саморезы кровельные (металл/металл) весовые</category>
+      <category id="7538700" parentId="7538516">Резьбовые бронзовые фитинги Viega</category>
+      <category id="7538701" parentId="7538060">Винт для мебельной фурнитуры картонная упаковка</category>
+      <category id="7538702" parentId="7538409">Микроволновые печи</category>
+      <category id="7538703" parentId="7538488">Петля гаражная</category>
+      <category id="7538704" parentId="7537444">Насосы и комплектующие</category>
+      <category id="7538705" parentId="7537862">Джилекс</category>
+      <category id="7538706" parentId="7538687">Смесители KEIL</category>
+      <category id="7538707" parentId="7538088">Шайба гровер поштучно</category>
+      <category id="7538708" parentId="7538697">Автоматика (УЗО, ВА, Дифавтоматы)</category>
+      <category id="7538709" parentId="7538516">Подводка гибкая Акваэлка</category>
+      <category id="7538710" parentId="7538273">Крючки с-образные поштучно</category>
+      <category id="7538711" parentId="7538516">Медные фитинги под пайку Viega</category>
+      <category id="7538712" parentId="7537862">Wilo</category>
+      <category id="7538713" parentId="7538687">Смесители Ригель-Сиб</category>
+      <category id="7538714" parentId="7538518">Радиаторы отопления и комплектующие</category>
+      <category id="7538715" parentId="7538714">Комплекты для радиаторов</category>
+      <category id="7538716" parentId="7538687">Смесители Glauf</category>
+      <category id="7538717" parentId="7538704">Джилекс насосы и комплектующие</category>
+      <category id="7538718" parentId="7538704">WILO насосы и комплектующие</category>
+      <category id="7538719" parentId="7537426">Кабеленесущие системы</category>
+      <category id="7538720" parentId="7538516">Резьбовые чугунные фитинги LIVARNA TITAN</category>
+      <category id="7538721" parentId="7537441">Стенды Сантехники</category>
+      <category id="7538722" parentId="7537426">Электромонтажные изделия</category>
+      <category id="7538723" parentId="7537426">Электрощитовое оборудование</category>
+      <category id="7538725" parentId="7538629">Шланги для стиральных машин</category>
+      <category id="7538726" parentId="7537620">Сапоги ПВХ, чулок меховой</category>
+      <category id="7538727" parentId="7537620">Ботинки и полуботинки рабочие</category>
+      <category id="7538728" parentId="7537620">Сапоги и полусапоги рабочие</category>
+      <category id="7538729" parentId="7538052">Дюбель для гипсокартонных плит DRIVA зип-лок</category>
+      <category id="7538730" parentId="7538704">Насосы ECO</category>
+      <category id="7538731" parentId="7537569">Заклепка вытяжная нержавеющая сталь</category>
+      <category id="7538732" parentId="7538731">Заклепка вытяжная нержавеющая сталь картонная упаковка</category>
+      <category id="7538733" parentId="7538488">Ролики опорные</category>
+      <category id="7538734" parentId="7537461">Средства для уборки</category>
+      <category id="7538735" parentId="7537461">Средства для мытья посуды</category>
+      <category id="7538736" parentId="7537461">Мыло туалетное, хозяйственное</category>
+      <category id="7538737" parentId="7537461">Пасты моющие для рук</category>
+      <category id="7538738" parentId="7537461">Мыло жидкое</category>
+      <category id="7538739" parentId="7537440">Сувениры 3М</category>
+      <category id="7538740" parentId="7538516">Подводка гибкая AV Engineering</category>
+      <category id="7538741" parentId="7538069">Гайка врезная короба</category>
+      <category id="7538742" parentId="7538488">Упор дверной</category>
+      <category id="7538743" parentId="7537480">Пятновыводители и отбеливатели</category>
+      <category id="7538744" parentId="7537480">Кондиционеры и ополаскиватели</category>
+      <category id="7538745" parentId="7537480">Порошки и гели</category>
+      <category id="7538746" parentId="7537461">Освежители воздуха</category>
+      <category id="7538747" parentId="7537461">Таблетки и капсулы для посудомоечных машин</category>
+      <category id="7538748" parentId="7537440">Сувениры MOLOT</category>
+      <category id="7538749" parentId="7537924">Автомобильные наборы ВОЛАТ</category>
+      <category id="7538750" parentId="7537924">Автомобильные наборы ТРЕК</category>
+      <category id="7538751">Акции</category>
+      <category id="7538752" parentId="7537624">Элементы тачек</category>
+      <category id="7538753" parentId="7537427">Вибротрамбовки</category>
+      <category id="7538754" parentId="7537441">Стенды замки Чебоксары</category>
+      <category id="7538755" parentId="7537441">Стенды MARKAL</category>
+      <category id="7538756" parentId="7537441">Стенды JazzWay</category>
+      <category id="7538757" parentId="7537557">Закрепы</category>
+    </categories>
+    <offers />
+  </shop>
+</yml_catalog>

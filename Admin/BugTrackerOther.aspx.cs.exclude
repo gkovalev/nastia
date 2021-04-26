@@ -1,0 +1,96 @@
+using System;
+using System.Data;
+using System.IO;
+using System.Text.RegularExpressions;
+using System.Web.UI;
+using AdvantShop.Configuration;
+using AdvantShop.Diagnostics;
+using Resources;
+
+//--------------------------------------------------
+// Project: AdvantShop.NET
+// Web site: http:\\www.advantshop.net
+//--------------------------------------------------
+
+public partial class Admin_BugTrackerOther : Page
+{
+    protected override void InitializeCulture()
+    {
+        AdvantShop.Localization.Culture.InitializeCulture();
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+        Page.Title = string.Format("{0} - {1}", SettingsMain.ShopName, Resource.Admin_MasterPageAdmin_BugTracker_Other);
+        LoadData();
+    }
+
+    protected string Dotter(string linkText)
+    {
+        return string.Format("{0}...", linkText);
+    }
+
+    public bool ErrLogIsExist()
+    {
+        var path = Server.MapPath("~/App_Data/errlog/") + "Log_ErrHttp.xml";
+        if (File.Exists(path))
+        {
+            return true;
+        }
+        lbEmptyLog.Visible = true;
+        lbEmptyLog.Text = Resource.Admin_BugTracker_EmptyLog;
+        return false;
+    }
+
+    public bool LoadData()
+    {
+        try
+        {
+            var path = Server.MapPath("~/App_Data/errlog/") + "Log_ErrHttp.xml";
+            if (File.Exists(path))
+            {
+                var ds = new DataSet();
+                ds.ReadXml(path);
+                var dv = new DataView(ds.Tables[0]) { Sort = "Date DESC" };
+                grid.DataSource = dv;
+                grid.DataBind();
+                return true;
+            }
+            return false;
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError(ex);
+            return false;
+        }
+    }
+
+    public string PathShortener(string path)
+    {
+        const string pattern = "(\\w+:|\\\\)(\\\\[^\\\\]+\\\\).*(\\\\[^\\\\]+)";
+        const string replacement = "$1$2...$3";
+        return Regex.IsMatch(path, pattern) ? Regex.Replace(path, pattern, replacement) : path;
+    }
+
+    public string DateWrapper(string dateString)
+    {
+        return "BugTrackerDetails.aspx?Timestamp=" +
+               dateString.Replace(' ', '_').Replace('-', '_').Replace(':', '_') + "&Type=Other";
+    }
+
+    protected void lbArchives_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTrackerArchives.aspx");
+    }
+
+    protected void lbInternal_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTracker.aspx");
+    }
+
+    protected void lbError404_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTrackerError404.aspx");
+    }
+}

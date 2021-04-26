@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" CodeFile="MasterPageSocial.master.cs" Inherits="MasterPageSocial"
+    ClientIDMode="Static" EnableViewState="false" ViewStateMode="Disabled" %>
+
+<%--Do not change ClientIDMode in MasterPage file from "Static".  If you need another ClientIDMode, change it only for that control, what you need --%>
+<%@ Import Namespace="AdvantShop.SEO" %>
+<%@ Register Src="../UserControls/LogoImage.ascx" TagName="Logo" TagPrefix="adv" %>
+<%@ Register Src="../UserControls/MasterPage/Favicon.ascx" TagName="Favicon" TagPrefix="adv" %>
+<%@ Register Src="../UserControls/StaticBlock.ascx" TagName="StaticBlock" TagPrefix="adv" %>
+<%@ Register Src="../UserControls/MasterPage/LiveinternetCounter.ascx" TagName="LiveCounter"
+    TagPrefix="adv" %>
+<%@ Register Src="UserControls/MenuTopSocial.ascx" TagName="MenuTopSocial" TagPrefix="adv" %>
+<%@ Register Src="UserControls/ShoppingCartSocial.ascx" TagName="ShoppingCartSocial" TagPrefix="adv" %>
+<%@ Register Src="UserControls/MenuCatalogSocial.ascx" TagName="MenuCatalogSocial"
+    TagPrefix="adv" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="AdVantShop.NET" />
+    <base href="<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + (!Request.ApplicationPath.EndsWith("/") ? "/" : string.Empty) %>" />
+    <asp:Literal ID="headMeta" runat="server"></asp:Literal>
+    <asp:Literal ID="headStyle" runat="server"></asp:Literal>
+    <!--[if IE 8]><link type="text/css" rel="stylesheet" href="css/fix/stylesIE8.css"/><![endif]-->
+    <link rel="stylesheet" href="design/colors/blue/css/styles.css" />
+    <link rel="stylesheet" href="social/css/social.css" />
+    <asp:Literal ID="lsocialCss" runat="server"></asp:Literal>
+    <asp:Literal runat="server" ID="headScript"></asp:Literal>
+    <%if (new GoogleAnalyticsString().Enabled)
+      {
+    %>
+    <script type="text/javascript" src="http://google-analytics.com/ga.js"></script>
+    <% } %>
+    <adv:Favicon ID="Favicon" runat="server" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <adv:LiveCounter runat="server" />
+    <asp:ContentPlaceHolder ID="cphGoogleAnalytics" runat="server">
+        <%= new GoogleAnalyticsString().GetGoogleAnalyticsString()%>
+    </asp:ContentPlaceHolder>
+    <form id="form" runat="server">
+    <!--container-->
+    <div class="container">
+        <!--header-->
+        <header id="header">
+            <adv:Logo ID="Logo" ImgHref='/social/catalogsocial.aspx' runat="server" CssClassImage="logoFloat" />
+            <adv:ShoppingCartSocial ID="ShoppingCartSocial" runat="server" />
+            <adv:MenuTopSocial ID="menuTop" runat="server" />
+            <div class="clear">
+            </div>
+        </header>
+        <!--end_header-->
+        <!--main_tree-->
+        <adv:MenuCatalogSocial ID="menuCatalog" runat="server"></adv:MenuCatalogSocial>
+        <!--end_main_tree-->
+        <!--content-->
+        <asp:ContentPlaceHolder ID="cphMain" runat="server">
+        </asp:ContentPlaceHolder>
+        <br class="clear" />
+        <!--footer-->
+        <div class="footer">
+            <div class="content">
+                <adv:StaticBlock ID="dbCopyright" runat="server" SourceKey="CopyrightSocial" />
+                <br class="clear" />
+            </div>
+        </div>
+        <!--end_footer-->
+    </div>
+    <adv:StaticBlock ID="liveoperator" runat="server" SourceKey="liveoperator" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderBottom" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:Literal ID="bottomScript" runat="server"></asp:Literal>
+    <script type="text/javascript" src="social/js/social.js"></script>
+    <!--[if lt IE 10]>
+        <script type="text/javascript" src="js/fix/PIE.js"></script>
+    <![endif]-->
+    <div id="vk" runat="server">
+        <script src="http://vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
+        <script type="text/javascript">
+            VK.init(function () {
+                setInterval(function () {
+                    VK.callMethod("resizeWindow", 827, $("body").height()+20);    
+                }, 1000);
+            });
+        </script>
+    </div>
+    </form>
+</body>
+</html>

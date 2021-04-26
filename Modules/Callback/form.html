@@ -1,0 +1,60 @@
+﻿<div class="callback">
+    <ul class="callback-form">
+        <li>
+            [%= text%]
+        </li>
+        <li>
+            <div class="param-name">
+                <label for="txtName-reply">
+                    [%= localizeCallback('name')%]:
+                </label>
+            </div>
+            <div class="param-value">
+                <div class="input-wrap">
+                    <input type="text"  class="valid-required group-callback" id="txtCallbackName" name="txtCallbackName" />
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="param-name">
+                <label for="txtEmail-reply">
+                    [%= localizeCallback('phone')%]:
+                </label>
+            </div>
+            <div class="param-value">
+                <div class="input-wrap">
+                    <input type="text" class="valid-required group-callback" id="txtCallbackPhone" name="txtCallbackPhone" />
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="param-name">
+                <label for="txtMessage-reply">
+                    [%= localizeCallback('comment')%]:
+                </label>
+            </div>
+            <div class="param-value">
+                <div class="textarea-wrap">
+                    <textarea data-reviews-param="text" id="txtCallbackComment" name="txtCallbackComment" cols="20" rows="2"></textarea>
+                </div>
+            </div>
+        </li>
+        <li class="center">
+            <span class="btn-c">
+                <a class="btn btn-submit btn-middle" href="javascript:void(0);" id="aCallbackSend">[%= localizeCallback("send")%]</a>
+            </span>
+        </li>
+    </ul>
+    <ul class="result">
+        <li>
+            [%= localizeCallback('result')%]
+        </li>
+        <li class="center">
+            <span class="btn-c">
+                <a class="btn btn-submit btn-middle" href="javascript:void(0);" id="aCallbackOk">[%= localizeCallback("ok")%]</a>
+            </span>
+        </li>
+    </ul>
+    <br class="clear" />
+</div>
+

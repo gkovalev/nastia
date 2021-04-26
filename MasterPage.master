@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="MasterPage" ClientIDMode="Static"
+    EnableViewState="false" ViewStateMode="Disabled" %>
+
+<%--Do not change ClientIDMode in MasterPage file from "Static".  If you need another ClientIDMode, change it only for that control, what you need --%>
+<%@ Import Namespace="AdvantShop.Configuration" %>
+<%@ Import Namespace="AdvantShop.Design" %>
+<%@ Import Namespace="AdvantShop.SEO" %>
+<%@ Import Namespace="Resources" %>
+<%@ Register Src="UserControls/LogoImage.ascx" TagName="Logo" TagPrefix="adv" %>
+<%@ Register Src="UserControls/MasterPage/Favicon.ascx" TagName="Favicon" TagPrefix="adv" %>
+<%@ Register Src="UserControls/StaticBlock.ascx" TagName="StaticBlock" TagPrefix="adv" %>
+<%@ Register Src="UserControls/MasterPage/ShoppingCart.ascx" TagName="ShoppingCart"
+    TagPrefix="adv" %>
+<%@ Register Src="UserControls/MasterPage/LiveinternetCounter.ascx" TagName="LiveCounter"
+    TagPrefix="adv" %>
+<%@ Register Src="UserControls/MasterPage/MenuTop.ascx" TagName="MenuTop" TagPrefix="adv" %>
+<%@ Register Src="UserControls/MasterPage/MenuBottom.ascx" TagName="MenuBottom" TagPrefix="adv" %>
+<%@ Register Src="UserControls/MasterPage/MenuCatalog.ascx" TagName="MenuCatalog"
+    TagPrefix="adv" %>
+<%@ Register Src="UserControls/MasterPage/DemoFeedBack.ascx" TagName="DemoFeedBack"
+    TagPrefix="adv" %>
+<%@ Register TagPrefix="adv" TagName="MenuTopMainPage" Src="UserControls/MasterPage/MenuTopMainPage.ascx" %>
+<%@ Register TagPrefix="adv" TagName="Search" Src="~/UserControls/MasterPage/Search.ascx" %>
+<!DOCTYPE html>
+<html>
+<head>
+   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="generator" content="AdVantShop.NET">
+    <base href="<%= Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath + (!Request.ApplicationPath.EndsWith("/") ? "/" : string.Empty) %>">
+    <asp:Literal ID="headCustomMeta" runat="server" />
+    <asp:Literal ID="headMeta" runat="server" />
+    <asp:Literal ID="headStyle" runat="server" />
+    <!--[if IE 8]>
+        <link type="text/css" rel="stylesheet" href="css/fix/stylesIE8.css"/>
+    <![endif]-->
+    <asp:Literal ID="liViewCss" runat="server" />
+    <link rel="stylesheet" href="<%= "design/" + DesignService.GetDesign("theme") + "/css/styles.css" %>"
+        id="themecss" />
+    <link rel="stylesheet" href="<%= "design/colors/" + DesignService.GetDesign("colorscheme") + "/css/styles.css" %>"
+        id="colorcss" />
+    <asp:Literal ID="headScript" runat="server" />
+    <%if (new GoogleAnalyticsString().Enabled)
+      {
+    %>
+    <script src="https://google-analytics.com/ga.js"></script>
+    <% } %>
+    <adv:Favicon ID="Favicon" runat="server" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+    </asp:ContentPlaceHolder>
+    <%= AdvantShop.Modules.ModulesRenderer.RenderIntoHead()%>
+</head>
+<body data-plugin="upper" data-upper-options="{scrollSpeed: 0}">
+    <%= AdvantShop.Modules.ModulesRenderer.RenderAfterBodyStart()%>
+    <adv:LiveCounter runat="server" />
+    <asp:ContentPlaceHolder ID="cphGoogleAnalytics" runat="server">
+        <%= new GoogleAnalyticsString().GetGoogleAnalyticsString()%>
+    </asp:ContentPlaceHolder>
+    <form id="form" runat="server">
+    <!--top_panel-->
+    <div class="top-panel">
+        <div class="top-panel-content">
+            <div class="top-panel-login" runat="server" id="pnlLogin">
+                <a href="login.aspx" class="tpl tpl-signin">
+                    <%= Resources.Resource.Client_MasterPage_Authorization %></a> <a href="registration.aspx"
+                        class="tpl tpl-reg">
+                        <%= Resources.Resource.Client_MasterPage_Registration %></a>
+            </div>
+            <div class="top-panel-login" runat="server" id="pnlmyAccount">
+                <a href="myaccount.aspx" class="tpl tpl-signin">
+                    <%= Resources.Resource.Client_MasterPage_MyAccount %></a>
+                <asp:LinkButton CssClass="tpl tpl-reg" runat="server" OnClick="btnLogout_Click"><%= Resources.Resource.Client_MasterPage_LogOut %></asp:LinkButton>
+            </div>
+            <div class="top-panel-constructor" runat="server" id="pnlConstructor">
+                <span>
+                    <%= Resources.Resource.Client_MasterPage_AdminPanel_DesignConstructor %></span>
+            </div>
+            <adv:ShoppingCart ID="shoppingCart" runat="server" />
+            <div class="top-panel-wishlist" runat="server" id="pnlWishList">
+                <%=Resources.Resource.Client_MasterPage_WishList%>: <a href="wishlist.aspx" class="link-purple">
+                    <%= wishlistCount %></a>
+            </div>
+            <div class="top-panel-currency" runat="server" id="pnlCurrency">
+                <%=Resources.Resource.Client_MasterPage_Currency%>:
+                <asp:DropDownList ID="ddlCurrency" runat="server" onchange="ChangeCurrency(this);" />
+            </div>
+            <br class="clear" />
+        </div>
+    </div>
+    <!--end_top_panel-->
+    <!--container-->
+    <div class="container">
+        <!--header-->
+        <header id="header">
+            <adv:Logo ID="Logo" ImgHref='/' runat="server" CssClassImage="logoFloat" />
+            <div class="center-cell">
+                <adv:MenuTop ID="menuTop" runat="server" />
+                <adv:Search runat="server" ID="searchBig" Visible="False" />
+            </div>
+            <div class="contact-cell">
+                <div class="contact-inside">
+                    <div class="phone" style="white-space: nowrap"> 
+                        <%= SettingsMain.Phone %> </div>
+                    <adv:Search runat="server" ID="searchBlock" />
+                    <div class="header-message">
+                        <adv:StaticBlock ID="email" runat="server" SourceKey="email" />
+                    </div>
+                </div>
+            </div>
+            <div runat="server" id="pnlAdmin" class="pnlAdmin">
+                <a href="admin/default.aspx">
+                    <%= Resource.Client_MasterPage_Administration%></a>
+            </div>
+
+            <asp:LinkButton ID="lbLoginAsAdmin" OnClick="lbLoginAsAdmin_Click" runat="server"
+                Text="<%$ Resources:Resource, Client_MasterPage_AdminPanel_Online %>" CssClass="pnlAdmin"></asp:LinkButton>
+        </header>
+        <!--end_header-->
+        <!--main_tree-->
+        <adv:MenuCatalog ID="menuCatalog" runat="server" />
+        <!--end_main_tree-->
+        <!--content-->
+        <adv:MenuTopMainPage ID="menuTopMainPage" runat="server" />
+        <div id="notify">
+            <%= NotifyMessage.ToString()%>
+        </div>
+        <asp:ContentPlaceHolder ID="cphMain" runat="server">
+        </asp:ContentPlaceHolder>
+        <br class="clear" />
+        <!--footer-->
+        <footer class="footer">
+            <div class="content">
+                <adv:MenuBottom ID="menuBottom" runat="server" />
+                <div class="footer-two-level">
+                    <adv:StaticBlock ID="dbCopyright" runat="server" SourceKey="Copyright" />
+                    <adv:StaticBlock ID="sbRightBottom" runat="server" SourceKey="RightBottom" />
+                    <br class="clear" />
+                </div>
+            </div>
+        </footer>
+        <!--end_footer-->
+    </div>
+
+
+    <adv:StaticBlock ID="liveoperator" runat="server" SourceKey="liveoperator" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderBottom" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="theme-container">
+        <div class="theme-left">
+        </div>
+        <div class="theme-right">
+        </div>
+    </div>
+    <adv:DemoFeedBack runat="server" ID="demoFeedBack" />
+    <asp:Literal ID="bottomScript" runat="server"></asp:Literal>
+    <!--[if lt IE 10]>
+        <script type="text/javascript" src="js/fix/PIE.js"></script>
+    <![endif]-->
+    <%= AdvantShop.Modules.ModulesRenderer.RenderBeforeBodyEnd()%>
+    </form>
+</body>
+</html>

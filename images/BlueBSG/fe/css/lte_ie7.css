@@ -1,0 +1,90 @@
+/**
+ * Adjusting font-size for teaser headline
+ *
+ * @affected <= IE 7
+ */
+.dcp__teaser h2 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin: 0 0 1px;
+}
+
+
+/**
+ * Fixing peekaboo-bug (hidden span)
+ *
+ * @bugfix
+ * @affected IE <= 7
+ */
+.slider .slide-content .overview li {
+    position: relative;
+}
+
+
+/**
+ * Adjusting z-index for slider
+ *
+ * @bugfix
+ * @affected IE <= 7
+ */
+.slider {
+    position: relative;
+    z-index: 2;
+}
+
+
+/**
+ * Fixes whitespace in tab content
+ *
+ * @bugfix
+ * @affected IE <= 7
+ */
+.slider .tabcontent {
+    height: 140px;
+}
+
+
+/**
+ * Fixing collapsing margins in teasers
+ *
+ * @bugfix
+ * @affected IE <= 7
+ */
+.dcp__teaser {
+    position: relative;
+}
+
+
+/**
+ * Fixing hasLayout-Problem
+ *
+ * @bugfix
+ * @affected IE <= 7
+ */
+.dcp__teaser .expandable {
+    height: 1%;
+}
+
+/**
+ * Adjusting Background-Position
+ *
+ * @bugfix
+ * @affected IE <= 7
+ */
+#dcp__resultlist ul li a {
+    background-position: 0 3px;
+}
+
+/**
+ * Fixes z-index problem for viewport
+ *
+ * @bugfix
+ * @affected IE <= 7
+ */
+.slider .slide-content .viewport {
+    z-index: 9;
+}
+#division_garden {
+    position: relative;
+}
+

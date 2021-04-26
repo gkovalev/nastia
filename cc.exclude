@@ -1,0 +1,16 @@
+.\images\controls\rating\rating.png.exclude
+.\css\jq\jquery.ui.stars.min.css.exclude
+.\App_WebReferences\QiwiServiceReference\Reference.svcmap.exclude
+.\App_WebReferences\QiwiServiceReference\IShopServerWSService.wsdl.exclude
+.\App_WebReferences\QiwiServiceReference\configuration91.svcinfo.exclude
+.\App_WebReferences\QiwiServiceReference\configuration.svcinfo.exclude
+.\Admin\BugTrackerOther.aspx.cs.exclude
+.\Admin\BugTrackerOther.aspx.exclude
+.\Admin\BugTrackerError404.aspx.cs.exclude
+.\Admin\BugTrackerError404.aspx.exclude
+.\Admin\BugTrackerDetails.aspx.cs.exclude
+.\Admin\BugTrackerDetails.aspx.exclude
+.\Admin\BugTrackerArchives.aspx.cs.exclude
+.\Admin\BugTrackerArchives.aspx.exclude
+.\Admin\BugTracker.aspx.cs.exclude
+.\Admin\BugTracker.aspx.exclude

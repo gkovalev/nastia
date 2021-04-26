@@ -1,0 +1,43 @@
+﻿<div data-sr-form-reply="true" class="shop-Faqs-form-reply" data-sr-id="[%= id%]" data-sr-parentId="[%= parentId %]">
+    <div class="shop-Faqs-form-title">
+        [%= localizeStoreFaqs('StoreFaqsFormReplyTitle')%]
+    </div>
+    <ul class="shop-Faqs-form">
+        <li class="shop-Faqs-form-row">
+            <label for="txtFaqerName-reply">
+                [%= localizeStoreFaqs('StoreFaqsFormReplyName')%]</label>
+            <div>
+                <div class="input-wrap">
+                    <input id="txtFaqerName-reply" type="text" data-plugin="validelem" data-validelem-group="StoreFaqs-reply"
+                           data-validelem-methods="['required']" data-sr-form-data="name" />
+                </div>
+            </div>
+        </li>
+        <li class="shop-Faqs-form-row">
+            <label for="txtEmail-reply">
+                [%= localizeStoreFaqs('StoreFaqsFormReplyEmail')%]</label>
+            <div>
+                <div class="input-wrap">
+                    <input id="txtEmail-reply" type="text" data-plugin="validelem" data-validelem-group="StoreFaqs-reply"
+                           data-validelem-methods="['required', 'email']" data-sr-form-data="email" />
+                </div>
+            </div>
+        </li>
+        <li class="shop-Faqs-form-row">
+            <label for="txtFaq-reply">
+                [%= localizeStoreFaqs('StoreFaqsFormReplyFaq')%]</label>
+            <div>
+                <div class="textarea-wrap">
+                    <textarea id="txtFaq-reply" data-validelem-group="StoreFaqs-reply" data-plugin="validelem" data-validelem-methods="['required']" data-sr-form-data="Faq"></textarea>
+                </div>
+            </div>
+        </li>
+        <li class="shop-Faqs-form-row"><a href="javascript:void(0);" class="btn btn-submit btn-middle" data-sr-form-ajax="true" data-validelem-btn="StoreFaqs-reply">
+                                              [%= localizeStoreFaqs('StoreFaqsFormReplySend')%]</a>
+        
+            
+            <a href="javascript:void(0);" class="btn btn-submit btn-middle" data-sr-cancel="true">
+                [%= localizeStoreFaqs('StoreFaqsFormReplyCancel')%]</a>
+        </li>
+    </ul>
+</div>

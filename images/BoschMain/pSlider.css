@@ -1,0 +1,242 @@
+@charset "utf-8";
+div.pSlider {
+	width:732px;
+	height: 140px;
+	border: 1px solid #c3c3c4;	
+	margin-bottom:6px;
+	display:block;
+}
+
+div.pSliderContent {
+	margin-left:50px;
+	float:left;
+	width:631px;
+	height: 140px;
+	background: url('background_relprod.jpg') repeat-x;
+	overflow-x:hidden;
+	position:absolute;
+	z-index:2;	
+}
+div.pSliderContainer {
+	width:16000px;
+	overflow:hidden;
+	position:absolute;
+	z-index:1;	
+}
+div.pSliderBox {
+	margin:10px 0;
+	float:left;
+	width:101px;
+	height:120px;
+	border-right:1px solid #c3c3c4;
+	text-align:center;
+	overflow:hidden;
+	padding:0 10px;
+}
+div.pSliderBox.last {
+	border:0;
+}
+div.pSliderBox img.prod {
+	
+}
+div.pSliderBox p, div.pSliderBox a {
+	text-align:left;
+}
+div.pSliderPager {
+	z-index:3;	
+	position:absolute;
+	text-align:center;
+	float:left;
+	width:50px;
+	height:82px;
+	padding-top:58px;
+	border-right: 1px solid #c3c3c4;
+	background: url('background_relprod.jpg') repeat-x;
+	cursor:pointer;
+}
+div.pSliderPager a {
+	display:block;
+	width: 26px;
+	height: 26px;
+	margin-left:12px;
+}
+*html div.pSliderPager a {
+	margin-left:6px;
+}
+div.pSliderPager.prev.inactive a {
+	background: url('button_prev_relprod_ia.jpg') no-repeat;
+}
+div.pSliderPager.next.inactive a {
+	background: url('button_next_relprod_ia.jpg') no-repeat;
+}
+div.pSliderPager.prev.inactive a:hover {
+	background: url('button_prev_relprod_ia.jpg') no-repeat;
+}
+div.pSliderPager.next.inactive a:hover {
+	background: url('button_next_relprod_ia.jpg') no-repeat;
+}
+div.pSliderPager.prev a {
+	background: url('button_prev_relprod.jpg') no-repeat;
+}
+div.pSliderPager.next a {
+	background: url('button_next_relprod.jpg') no-repeat;
+}
+div.pSliderPager.prev a:hover {
+	background: url('button_prev_relprod_hover.jpg') no-repeat;
+}
+div.pSliderPager.next a:hover {
+	background: url('button_next_relprod_hover.jpg') no-repeat;
+}
+div.pSliderPager.inactive {
+	cursor:default;
+}
+div.pSliderPager.next {	
+	margin-left: 681px;
+	position:absolute;
+	border-right: 0;
+	border-left: 1px solid #c3c3c4;
+	background: url('background_relprod.jpg') repeat-x;
+		
+}
+
+div.pSliderBox p.link {
+	font-size:12px;
+	padding-top:6px;
+	height: 44px;
+	overflow:hidden;
+}
+div.pSliderBox p.link a {
+	padding-left: 8px;
+	display:block;
+	font-weight:bold;
+	color:#215F8B;
+	
+}
+div.pSliderBox p.link a:hover {
+	color:#003B6A;
+}
+
+div.pSliderBox div.imgBox {
+	height:70px;
+	overflow:hidden;	
+	text-align:center;
+}
+
+div.pSliderBox div.imgBox a {
+	text-align:center;
+	display:block;
+}
+
+div.pSliderBox div.imgBox a img {
+	text-align:center;
+	float:none;
+}
+
+#ajLoading p {
+	padding:20px;
+	padding-left:200px;
+	padding-top:60px;
+}
+
+.word_wrap
+{
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+div.pSliderBox p.price {
+	font-size:11px;
+	padding:3px 6px;
+	padding-left:14px;
+}
+
+
+
+div.pSliderBox p.link span {
+	display:none;
+}
+
+
+
+
+div.pSliderBox div.imgBox a img.hidden {
+	display:none;	
+}
+
+
+
+/* hover state */
+div.pSliderBox.hover {
+    width: 329px;
+}
+
+
+div.pSliderBox.hover div.imgBox {
+	width: 160px;
+	float:left;
+	height: 120px;	
+}
+
+
+
+
+div.pSliderBox.hover p.link {
+	width: 160px;
+	float:right;	
+	height:auto;
+}
+
+
+
+
+div.pSliderBox.hover p.link span {
+	margin-bottom: 20px;
+	display:block;
+	font-size:14px;
+	height: 50px;
+	overflow:hidden;
+	color:#404245;
+}
+
+
+div.pSliderBox.hover p.link a {
+	height: 50px;
+	overflow:hidden;
+}
+
+
+/* slider variant 2 */
+div.pSlider.var2 {
+	width: 710px;
+	margin: 10px 10px 0 10px;
+}
+
+div.pSlider.var2 div.pSliderContent {
+    width: 609px;
+}
+
+div.pSlider.var2 div.pSliderPager.next {
+   margin-left: 659px;
+}
+
+/* slider variant 3 */
+div.pSlider.var3 {
+	width: 794px;
+	margin: 0;
+}
+
+div.pSlider.var3 div.pSliderContent {
+    width: 744px;
+}
+
+div.pSlider.var3 div.pSliderPager.next {
+   margin-left: 743px;
+}
+
+.sliderDetailPap div.pSliderBox p.link {
+    font-size: 11px;
+}
+

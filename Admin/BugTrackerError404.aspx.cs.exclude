@@ -1,0 +1,110 @@
+using System;
+using System.Data;
+using System.IO;
+using System.Text.RegularExpressions;
+using System.Web.UI;
+using AdvantShop.Configuration;
+using AdvantShop.Diagnostics;
+using Resources;
+
+//--------------------------------------------------
+// Project: AdvantShop.NET
+// Web site: http:\\www.advantshop.net
+//--------------------------------------------------
+
+public partial class Admin_BugTrackerError404 : Page
+{
+    protected override void InitializeCulture()
+    {
+        AdvantShop.Localization.Culture.InitializeCulture();
+    }
+
+    protected string Dotter(string linkText)
+    {
+        return string.Format("{0}...", linkText);
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        Page.Title = string.Format("{0} - {1}", SettingsMain.ShopName, Resource.Admin_BugTrackerError404_aspx);
+
+        var result = new DataSet();
+        result.Tables.Add("results");
+        result.Tables["results"].Columns.Add("Date");
+        result.Tables["results"].Columns.Add("Type");
+        result.Tables["results"].Columns.Add("SiteName");
+        result.Tables["results"].Columns.Add("Url");
+        result.Tables["results"].Columns.Add("UrlReferrer");
+
+        string lineIn;
+
+        string str = Debug.GetLogFileName(Debug.ELogErrorType.Error404);
+
+        //If System.IO.File.Exists(Server.MapPath("~") & "\App_Data\errlog\Log_Err404.log") Then
+        if (File.Exists(Debug.GetLogFileName(Debug.ELogErrorType.Error404)))
+        {
+            using (StreamReader oRead = File.OpenText(Debug.GetLogFileName(Debug.ELogErrorType.Error404)))
+            {
+                while (oRead.Peek() != -1)
+                {
+                    lineIn = oRead.ReadLine();
+                    DataRow newRow = result.Tables["results"].NewRow();
+                    newRow["Date"] = lineIn.Substring(0, 19);
+                    newRow["Type"] = Regex.Match(lineIn, "(Type: .*)SiteName:").ToString().Replace("Type:", "").Replace("SiteName:", "");
+                    newRow["SiteName"] = Regex.Match(lineIn, "(SiteName: .*)Url:").ToString().Replace("Url:", "").Replace("SiteName:", "");
+                    newRow["Url"] = Regex.Match(lineIn, "(Url: .*)UrlReferrer:").ToString().Replace("UrlReferrer:", "").Replace("Url:", "");
+                    newRow["UrlReferrer"] = Regex.Match(lineIn, "(UrlReferrer: .*)").ToString().Replace("UrlReferrer:", "");
+                    result.Tables["results"].Rows.Add(newRow);
+                }
+
+                oRead.Close();
+            }
+            var dv = new DataView(result.Tables["results"]) { Sort = "Date DESC" };
+
+            grid.DataSource = dv;
+            grid.DataBind();
+        }
+        else
+        {
+            lbEmptyLog.Visible = true;
+            lbEmptyLog.Text = Resource.Admin_BugTracker_EmptyLog;
+        }
+    }
+
+    protected void lbInternal_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTracker.aspx");
+    }
+
+    protected void lbOther_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTrackerOther.aspx");
+    }
+
+    protected void lbArchives_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("BugTrackerArchives.aspx");
+    }
+
+    #region Nested type: ErrorItem
+
+    public struct ErrorItem
+    {
+        public string Date;
+        public string SiteName;
+        public string Type;
+        public string URL;
+        public string URLReferrer;
+
+        public ErrorItem(string date, string gpTypea, string siteName, string url, string urlReferrer)
+        {
+            Date = date;
+            Type = gpTypea;
+            SiteName = siteName;
+            URL = url;
+            URLReferrer = urlReferrer;
+        }
+    }
+
+    #endregion
+}

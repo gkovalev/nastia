@@ -1,0 +1,55 @@
+﻿.modal-background {
+	background-color: #000;
+	top: 0px;
+	height:100%;
+	left: 0px;
+	right:0px;
+	position: fixed;
+	z-index:15;
+	display:none;
+}
+.modal {
+	position: fixed;
+	top: 40%;
+	margin: 0px auto;
+	background-color: #fff;
+	z-index:20;
+	border-width:1px;
+	border-style:solid;
+	border-top-color:#eaeaea;
+	border-right-color:#bfbfbf;
+	border-bottom-color:#808080;
+	border-left-color:#bfbfbf;
+	padding:19px 35px 19px 29px;
+	display:none;
+}
+.modal .title {
+	font-weight: bold;
+	margin-bottom:10px;
+	font-size:18px;
+	margin-right:10px;
+}
+.modal .content {
+	margin-bottom:15px;
+}
+.modal .cross {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	background:transparent url('../../images/close.gif') no-repeat scroll 5px center;
+	height:20px;
+	width:20px;
+	cursor:pointer;
+}
+.modal .btns{
+	text-align:right;
+	position:relative;
+}
+.modal .btns .btn-modal{
+	 margin-left:10px;
+}
+/*touch style*/
+.mb-touch, .m-touch {
+	position: absolute;
+	bottom:auto;
+}

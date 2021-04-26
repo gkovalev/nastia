@@ -1,0 +1,320 @@
+﻿//--------------------------------------------------
+// Project: AdvantShop.NET
+// Web site: http:\\www.advantshop.net
+//--------------------------------------------------
+
+using System;
+using System.Drawing;
+using System.Web.UI;
+using System.Xml.Linq;
+using AdvantShop;
+using AdvantShop.Configuration;
+using AdvantShop.Helpers;
+using AdvantShop.Mails;
+using Resources;
+
+public partial class Admin_BugTrackerDetails : Page
+{
+    protected override void InitializeCulture()
+    {
+        AdvantShop.Localization.Culture.InitializeCulture();
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        if (Request.Params["Timestamp"] == null || Request.Params["Type"] == null)
+        {
+            Response.Redirect("Default.aspx");
+        }
+        Page.Title = string.Format("{0} - {1}", SettingsMain.ShopName,
+                                   Resource.Admin_MasterPageAdmin_BugTracker_HeaderDetails);
+    }
+
+    public string DateWrapper(string dateString)
+    {
+        return dateString.Replace(' ', '_').Replace('-', '_').Replace(':', '_');
+    }
+
+    protected string Dotter(string linkText)
+    {
+        return string.Format("{0}...", linkText);
+    }
+
+    public string DetailsInfo(bool mailFormat)
+    {
+        var panel1 = string.Empty;
+        var panel2 = string.Empty;
+        var panel3 = string.Empty;
+        var panel4 = string.Empty;
+
+        var fileName = string.Empty;
+        switch (Request.Params["Type"])
+        {
+            case "Internal":
+                fileName = Server.MapPath("~") + "\\App_Data\\errlog\\Log_Err500.xml";
+                break;
+            case "Other":
+                fileName = Server.MapPath("~") + "\\App_Data\\errlog\\Log_ErrHttp.xml";
+                break;
+            default:
+                Response.Redirect("Default.aspx");
+                break;
+        }
+        var doc = XDocument.Load(fileName);
+
+        foreach (var rootElement in doc.Root.Elements())
+        {
+            if (DateWrapper(rootElement.Element("Date").Value) != Request.Params["Timestamp"]) continue;
+            foreach (var subRootElement in rootElement.Elements())
+            {
+                switch (subRootElement.Name.ToString())
+                {
+                    //First Panel
+                    case "Date":
+                        panel1 += CellWrapper(subRootElement.Name.ToString(), subRootElement.Value, false);
+                        break;
+                    case "InerExceptionMessage":
+                        panel1 += HeaderWrapper(null);
+                        panel1 += CellWrapper(subRootElement.Name.ToString(), subRootElement.Value, false);
+                        break;
+                    case "InerExceptionStackTrace":
+                        panel1 += HeaderWrapper(null);
+                        panel1 += CellWrapper(subRootElement.Name.ToString(), subRootElement.Value, false);
+                        break;
+                    case "Message":
+                        panel1 += HeaderWrapper(null);
+                        panel1 += CellWrapper(subRootElement.Name.ToString(), subRootElement.Value, false);
+                        break;
+                    case "StackTrace":
+                        panel1 += HeaderWrapper(null);
+                        panel1 += CellWrapper(subRootElement.Name.ToString(), subRootElement.Value, false);
+                        break;
+                    case "SiteInfo":
+                        panel1 += HeaderWrapper(subRootElement.Name.ToString());
+                        foreach (var tmpNode in subRootElement.Elements())
+                        {
+                            panel1 += ChildCellWrapper(tmpNode.Name.ToString(), tmpNode.Value);
+                        }
+                        break;
+                    case "Data":
+                        panel1 += HeaderWrapper(subRootElement.Name.ToString());
+                        foreach (var tmpNode in subRootElement.Elements())
+                        {
+                            panel1 += ChildCellWrapper(tmpNode.Attribute("Name").Value,tmpNode.Attribute("Value").Value);
+                        }
+                        break;
+                    case "SettingsMail":
+                        panel1 += HeaderWrapper(subRootElement.Name.ToString());
+                        foreach (var tmpNode in subRootElement.Elements())
+                        {
+                            panel1 += ChildCellWrapper(tmpNode.Attribute("Name").Value,tmpNode.Attribute("Value").Value);
+                        }
+                        break;
+                    case "ConfigSettings":
+                        panel1 += HeaderWrapper(subRootElement.Name.ToString());
+                        foreach (var tmpNode in subRootElement.Elements())
+                        {
+                            panel1 += ChildCellWrapper(tmpNode.Attribute("Name").Value,tmpNode.Attribute("Value").Value);
+                        }
+                        break;
+                    case "ConnectionString":
+                        if (!(Demo.IsDemoEnabled2 || Demo.IsDemoEnabled()))
+                        {
+                            panel1 += HeaderWrapper(null);
+                            panel1 += CellWrapper(subRootElement.Attribute("Name").Value,subRootElement.Attribute("Value").Value, false);
+                        }
+                        break;
+
+                    //Second Panel
+                    case "Request":
+                        foreach (var tmpNode in subRootElement.Elements())
+                        {
+                            panel2 += CellWrapper(tmpNode.Attribute("Name").Value, tmpNode.Value,tmpNode.HasElements);
+                            foreach (var tmpSubNode in tmpNode.Elements())
+                            {
+                                panel2 += ChildCellWrapper(tmpSubNode.Attribute("Name").Value,tmpSubNode.Attribute("Value").Value);
+                            }
+                        }
+                        break;
+
+                    //Third Panel
+                    case "Browser":
+                        foreach (var tmpNode in subRootElement.Elements())
+                        {
+                            panel3 += CellWrapper(tmpNode.Attribute("Name").Value,tmpNode.Attribute("Value").Value, false);
+                        }
+                        break;
+
+                    //Fourth Panel
+                    case "Session":
+                        foreach (var el2 in subRootElement.Elements())
+                        {
+                            switch (el2.Name.ToString())
+                            {
+                                case "SessionProperties":
+                                    panel4 += CellWrapper(el2.Name.ToString(), el2.Value, el2.HasElements);
+                                    foreach (var el3 in el2.Elements())
+                                    {
+                                        panel4 += ChildCellWrapper(el3.Attribute("Name").Value,el3.Attribute("Value").Value);
+                                    }
+                                    break;
+                                case "SessionVariables":
+                                    panel4 += HeaderWrapper(el2.Name.ToString());
+                                    foreach (var el3 in el2.Elements())
+                                    {
+                                        panel4 += ChildCellWrapper(el3.Attribute("Name").Value,el3.Attribute("Value").Value);
+                                    }
+                                    break;
+                            }
+                        }
+                        break;
+                }
+            }
+            break;
+        }
+        string panel1Header = string.Empty;
+        string panel2Header = string.Empty;
+        string panel3Header = string.Empty;
+        string panel4Header = string.Empty;
+        string result = string.Empty;
+        var emptyWrap = "<div id=\'div_{0}\' class=\'vTabPanelFreeHeight\'>{1}<div style=\'height:90px;\'><b>";
+        var dataWrap = "<div id=\'div_{0}\' class=\'vTabPanelFreeHeight\'>{1}{2}</div>";
+        if (mailFormat)
+        {
+            panel1Header = Resource.Admin_MasterPageAdmin_BugTracker_CommonInfo;
+            panel2Header = Resource.Admin_MasterPageAdmin_BugTracker_Request;
+            panel3Header = Resource.Admin_MasterPageAdmin_BugTracker_Browser;
+            panel4Header = Resource.Admin_MasterPageAdmin_BugTracker_Session;
+
+            dataWrap =
+                "<br /><span style=\'font-size: 18px; color: #275eac; font-weight:bold;\'>{1}:</span> <br /><br /><div id=\'div_{0}\' class=\'firstvTabPanelFreeHeight\' style=\'border:1px #000000 solid; width:1000px;\' >{2}</div>";
+            emptyWrap =
+                "<br /><span style=\'font-size: 18px; color: #275eac; font-weight:bold;\'>{1}:</span> <br /><br /><div id=\'div_{0}\' class=\'firstvTabPanelFreeHeight\'style=\'border:1px #000000 solid; width:1000px;\'><div style=\'height:90px;\'><b>";
+        }
+        if (!string.IsNullOrEmpty(panel1))
+        {
+            result += string.Format(dataWrap.Replace("vTabPanelFreeHeight", "firstVTabPanelFreeHeight"), 1,
+                                    panel1Header, panel1);
+        }
+        else
+        {
+            result +=
+                string.Format(emptyWrap + Resource.Admin_MasterPageAdmin_BugTracker_NoInfo + "</b></div></div>", 1,
+                              panel1Header);
+        }
+        if (!string.IsNullOrEmpty(panel2))
+        {
+            result += string.Format(dataWrap, 2, panel2Header, panel2);
+        }
+        else
+        {
+            result +=
+                string.Format(emptyWrap + Resource.Admin_MasterPageAdmin_BugTracker_NoInfo + "</b></div></div>", 2,
+                              panel2Header);
+        }
+        if (!string.IsNullOrEmpty(panel3))
+        {
+            result += string.Format(dataWrap, 3, panel3Header, panel3);
+        }
+        else
+        {
+            result +=
+                string.Format(emptyWrap + Resource.Admin_MasterPageAdmin_BugTracker_NoInfo + "</b></div></div>", 3,
+                              panel3Header);
+        }
+        if (!string.IsNullOrEmpty(panel4))
+        {
+            result += string.Format(dataWrap, 4, panel4Header, panel4);
+        }
+        else
+        {
+            result +=
+                string.Format(emptyWrap + Resource.Admin_MasterPageAdmin_BugTracker_NoInfo + "</b></div></div>", 4,
+                              panel4Header);
+        }
+        return result;
+    }
+
+    public string CellWrapper(string name, string value, bool hasChild)
+    {
+        if (hasChild)
+        {
+            return
+                string.Format(
+                    "<table><tr><td style=\'width:300px; vertical-align:top;\'><b>{0}</b></td><td>{1}</td></tr></table>",
+                    name, value);
+        }
+        if (value != string.Empty)
+        {
+            return
+                string.Format(
+                    "<table><tr><td style=\'width:300px; vertical-align:top;\'><b>{0}</b></td><td>{1}</td></tr></table>",
+                    name, value);
+        }
+        return string.Empty;
+    }
+
+    public string ChildCellWrapper(string name, string value)
+    {
+        if (value == string.Empty || name == "__VIEWSTATE")
+        {
+            return string.Empty;
+        }
+        if (name.Length > 30)
+        {
+            name = name.Insert(30, "<br />");
+        }
+        if (name == "HTTP_COOKIE")
+        {
+            return
+                string.Format(
+                    "<table ><tr><td style=\'width:285px; vertical-align:top; padding-left: 15px;\'><b>{0}</b></td><td><textarea style=\"width: 600px; overflow:auto; height: 100px; border: solid 1px black;\">{1}</textarea></td></tr></table>",
+                    name, value);
+        }
+        return string.Format(value.Length < 1000 ? "<table><tr><td style=\'width:285px; vertical-align:top; padding-left: 15px;\'><b>{0}</b></td><td>{1}</td></tr></table>" : "<table><tr><td style=\'width:285px; vertical-align:top; padding-left: 15px;\'><b>{0}</b></td><td><div style=\"overflow:auto; height: 100px; border: solid 1px black;\">{1}</div></td></tr></table>", name, value);
+    }
+
+    public string HeaderWrapper(string name)
+    {
+        return string.Format("<hr /><b>{0}</b>", name);
+    }
+
+    protected void LinkButton_Click(object sender, EventArgs e)
+    {
+        switch (Request.Params["Type"])
+        {
+            case "Internal":
+                Response.Redirect("BugTracker.aspx");
+                break;
+            default:
+                Response.Redirect("BugTrackerOther.aspx");
+                break;
+        }
+    }
+
+    protected void btnSendEmail_Click(object sender, EventArgs e)
+    {
+        lblEmailInfo.Visible = false;
+        if (string.IsNullOrEmpty(tbEmail.Text) || !ValidationHelper.IsValidEmail(tbEmail.Text))
+        {
+            lblEmailInfo.ForeColor = Color.Red;
+            lblEmailInfo.Text = Resource.Admin_BugTracker_EmailError;
+            lblEmailInfo.Visible = true;
+            upEmailStatus.Update();
+            return;
+        }
+        string header =
+            string.Format(
+                "<table><tr><td style=\'text-align: right;\'><span >{2}:</span>&nbsp;</td><td><span>{0}</span></td></tr><tr><td style=\'text-align: right;\'><span  >URL:</span>&nbsp;</td><td><span>{1}</span></td></tr></table><br />",
+                SettingsMain.ShopName, SettingsMain.SiteUrl, Resource.Admin_BugTracker_SiteName);
+        SendMail.SendMailNow(tbEmail.Text,
+                                  Resource.Admin_BugTracker_Site + " " + SettingsMain.SiteUrl + " – " +
+                                  Resource.Admin_BugTracker_ErrorText +
+                                  DateTime.Now.ToString(SettingsMain.AdminDateFormat), header + DetailsInfo(true),
+                                  true);
+        lblEmailInfo.ForeColor = Color.Black;
+        lblEmailInfo.Text = Resource.Admin_BugTracker_EmailSended;
+        lblEmailInfo.Visible = true;
+        upEmailStatus.Update();
+    }
+}

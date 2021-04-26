@@ -1,0 +1,68 @@
+﻿.main-menu a:link, .main-menu a:visited {
+	color: #000;
+}
+.main-menu a:hover, .main-menu a:active {
+	color: #686868;
+}
+.tree .left {
+	background: transparent url('../../images/colors/menu.png') no-repeat scroll left -1056px;
+}
+.tree .right {
+	background: transparent url('../../images/colors/menu.png') no-repeat scroll right -1100px;
+}
+.tree .center {
+	background: transparent url('../../images/colors/menu.png') repeat-x scroll left -1144px;
+}
+.tree .tree-item:hover,  .tree .tree-item .tree-submenu, .tree .tree-item-selected .tree-submenu, .tree .tree-item-selected {
+	background-color: #848484;
+}
+.tree-submenu-column a:link, .tree-submenu-column a:visited {
+	color: #fff;
+}
+.tree-submenu-column a:hover, .tree-submenu-column a:active {
+	color: #dbdbdb;
+}
+.tabs-vr .tabs-headers div.selected span.right, .steps span.selected span.right{
+	background:transparent url('../../images/colors/figure.gif') no-repeat scroll left -312px;
+}
+.tabs-vr .tabs-headers div.selected, .steps span.selected{
+	background:#6c6c6c;
+}
+.steps span.selected span.left{
+	background:transparent url('../../images/colors/figure.gif') no-repeat scroll -23px -312px;	
+}
+a:link, a:visited {
+	color: #000;
+}
+a:hover, a:active {
+	color: #000;
+}
+a.btn-continue, a.btn-submit{
+	/*background: #848484;*/
+	background: -moz-linear-gradient(top,  #848484 0%, #818181 14%, #646363 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#848484), color-stop(14%,#818181), color-stop(100%,#646363));
+	background: -webkit-linear-gradient(top,  #848484 0%,#818181 14%,#646363 100%);
+	background: -o-linear-gradient(top,  #848484 0%,#818181 14%,#646363 100%);
+	background: -ms-linear-gradient(top,  #848484 0%,#818181 14%,#646363 100%);
+	background: linear-gradient(top,  #848484 0%,#818181 14%,#646363 100%);
+	-pie-background: linear-gradient(top,  #848484 0%,#818181 14%,#646363 100%);
+}
+a.btn-continue:hover,  a.btn-submit:hover{
+	/*background: #646363;*/
+	background: -moz-linear-gradient(top,  #646363 0%, #818181 86%, #848484 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#646363), color-stop(86%,#818181), color-stop(100%,#848484));
+	background: -webkit-linear-gradient(top,  #646363 0%,#818181 86%,#848484 100%);
+	background: -o-linear-gradient(top,  #646363 0%,#818181 86%,#848484 100%);
+	background: -ms-linear-gradient(top,  #646363 0%,#818181 86%,#848484 100%);
+	background: linear-gradient(top,  #646363 0%,#818181 86%,#848484 100%);
+	-pie-background: linear-gradient(top,  #646363 0%,#818181 86%,#848484 100%);
+}
+a.link-recal {
+	background:transparent url('../../images/colors/refresh.png') no-repeat scroll left -115px;
+}
+.brends-symbol a.selected, .brends-symbol a.selected:hover{
+	background-color:#464646;
+}
+.brends-symbol a:hover{
+	background-color:#555555;
+}

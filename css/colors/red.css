@@ -1,0 +1,68 @@
+﻿.main-menu a:link, .main-menu a:visited {
+	color: #000000;
+}
+.main-menu a:hover, .main-menu a:active {
+	color: #686868;
+}
+.tree .left {
+	background: transparent url('../../images/colors/menu.png') no-repeat scroll left -264px;
+}
+.tree .right {
+	background: transparent url('../../images/colors/menu.png') no-repeat scroll right -308px;
+}
+.tree .center {
+	background: transparent url('../../images/colors/menu.png') repeat-x scroll left -352px;
+}
+.tree .tree-item:hover,  .tree .tree-item .tree-submenu, .tree .tree-item-selected .tree-submenu, .tree .tree-item-selected {
+	background-color: #b80b27;
+}
+.tree-submenu-column a:link, .tree-submenu-column a:visited {
+	color: #fff;
+}
+.tree-submenu-column a:hover, .tree-submenu-column a:active {
+	color: #f97187;
+}
+.tabs-vr .tabs-headers div.selected span.right, .steps span.selected span.right{
+	background:transparent url('../../images/colors/figure.gif') no-repeat scroll left -78px;
+}
+.tabs-vr .tabs-headers div.selected, .steps span.selected{
+	background:#b41029;
+}
+.steps span.selected span.left{
+	background:transparent url('../../images/colors/figure.gif') no-repeat scroll -23px -78px;	
+}
+a:link, a:visited {
+	color: #ce1515;
+}
+a:hover, a:active {
+	color: #ce1515;
+}
+a.btn-red, a.btn-submit{
+	/*background: #610510;*/
+	background: -moz-linear-gradient(top,  #610510 0%, #7e0514 11%, #990a1e 41%, #9e091f 43%, #9e091f 46%, #bf0c2a 73%, #d50d31 97%, #d40e31 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#610510), color-stop(11%,#7e0514), color-stop(41%,#990a1e), color-stop(43%,#9e091f), color-stop(46%,#9e091f), color-stop(73%,#bf0c2a), color-stop(97%,#d50d31), color-stop(100%,#d40e31));
+	background: -webkit-linear-gradient(top,  #610510 0%,#7e0514 11%,#990a1e 41%,#9e091f 43%,#9e091f 46%,#bf0c2a 73%,#d50d31 97%,#d40e31 100%);
+	background: -o-linear-gradient(top,  #610510 0%,#7e0514 11%,#990a1e 41%,#9e091f 43%,#9e091f 46%,#bf0c2a 73%,#d50d31 97%,#d40e31 100%);
+	background: -ms-linear-gradient(top,  #610510 0%,#7e0514 11%,#990a1e 41%,#9e091f 43%,#9e091f 46%,#bf0c2a 73%,#d50d31 97%,#d40e31 100%);
+	background: linear-gradient(top,  #610510 0%,#7e0514 11%,#990a1e 41%,#9e091f 43%,#9e091f 46%,#bf0c2a 73%,#d50d31 97%,#d40e31 100%);
+	-pie-background: linear-gradient(top,  #610510 0%,#7e0514 11%,#990a1e 41%,#9e091f 43%,#9e091f 46%,#bf0c2a 73%,#d50d31 97%,#d40e31 100%);
+}
+a.btn-red:hover, a.btn-submit:hover{
+	/*background: #d50d31;*/
+	background: -moz-linear-gradient(top,  #d50d31 0%, #bf0c2a 27%, #b00923 41%, #aa0a22 43%, #aa0a22 46%, #93081b 65%, #810716 86%, #7a0613 92%, #680613 97%, #620510 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d50d31), color-stop(27%,#bf0c2a), color-stop(41%,#b00923), color-stop(43%,#aa0a22), color-stop(46%,#aa0a22), color-stop(65%,#93081b), color-stop(86%,#810716), color-stop(92%,#7a0613), color-stop(97%,#680613), color-stop(100%,#620510));
+	background: -webkit-linear-gradient(top,  #d50d31 0%,#bf0c2a 27%,#b00923 41%,#aa0a22 43%,#aa0a22 46%,#93081b 65%,#810716 86%,#7a0613 92%,#680613 97%,#620510 100%);
+	background: -o-linear-gradient(top,  #d50d31 0%,#bf0c2a 27%,#b00923 41%,#aa0a22 43%,#aa0a22 46%,#93081b 65%,#810716 86%,#7a0613 92%,#680613 97%,#620510 100%);
+	background: -ms-linear-gradient(top,  #d50d31 0%,#bf0c2a 27%,#b00923 41%,#aa0a22 43%,#aa0a22 46%,#93081b 65%,#810716 86%,#7a0613 92%,#680613 97%,#620510 100%);
+	background: linear-gradient(top,  #d50d31 0%,#bf0c2a 27%,#b00923 41%,#aa0a22 43%,#aa0a22 46%,#93081b 65%,#810716 86%,#7a0613 92%,#680613 97%,#620510 100%);
+	-pie-background: linear-gradient(top,  #d50d31 0%,#bf0c2a 27%,#b00923 41%,#aa0a22 43%,#aa0a22 46%,#93081b 65%,#810716 86%,#7a0613 92%,#680613 97%,#620510 100%);
+}
+a.link-recal {
+	background:transparent url('../../images/colors/refresh.png') no-repeat scroll left -46px;
+}
+.brends-symbol a.selected, .brends-symbol a.selected:hover{
+	background-color:#710613;
+}
+.brends-symbol a:hover{
+	background-color:#bb0b28;
+}

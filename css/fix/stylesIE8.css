@@ -1,0 +1,6 @@
+﻿input[type=text].search-text{
+    line-height:28px;
+}
+input[type=text], input[type=password] {
+    line-height: 19px;
+}

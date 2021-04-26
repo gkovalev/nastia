@@ -1,0 +1,31 @@
+﻿.ui-stars-star, .ui-stars-cancel {
+	display: inline-block;
+	overflow: hidden;
+	cursor: pointer;
+	font-size:0px;
+	line-height:0px;
+}
+.ui-stars-cancel{
+	margin-right:2px;
+}
+.ui-stars-star a, .ui-stars-cancel a {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: url('../../images/controls/rating/rating.png') no-repeat 0 0;
+}
+.ui-stars-star a {
+	background-position: 0 -20px;
+}
+.ui-stars-star-on a {
+	background-position: 0 -38px;
+}
+.ui-stars-star-hover a {
+	background-position: 0 -29px;
+}
+.ui-stars-cancel-hover a {
+	background-position: 0 -10px;
+}
+.ui-stars-star-disabled, .ui-stars-star-disabled a, .ui-stars-cancel-disabled a {
+	cursor: default !important;
+}

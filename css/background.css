@@ -1,0 +1,56 @@
+﻿.graygrid{
+	background:transparent url('../images/backgrounds/grid.jpg') repeat-x scroll left top;
+	height:637px;
+}
+.blue{
+	background:transparent url('../images/backgrounds/blue.jpg') repeat-x scroll left top;
+	height:600px;
+}
+.waves{
+	background:transparent url('../images/backgrounds/abstract.jpg') no-repeat scroll center top;
+	height:376px;
+}
+.waves2{
+	background:transparent url('../images/backgrounds/abstract1.jpg') no-repeat scroll center top;
+	height:800px; 
+}
+.waves3{
+	background:transparent url('../images/backgrounds/abstract2.jpg') no-repeat scroll center top;
+	height:800px;
+}
+.asphalt{
+	background:transparent url('../images/backgrounds/asphalt.jpg') repeat-x scroll center top;
+	height:800px;
+}
+.asphalt2{
+	background:transparent url('../images/backgrounds/asphalt1.jpg') repeat-x scroll center top;
+	height:800px;
+}
+.flowers{
+	background:transparent url('../images/backgrounds/flowers.jpg') repeat-x scroll center top;
+	height:800px;
+}
+.flowers2{
+	background:transparent url('../images/backgrounds/flowers1.jpg') repeat-x scroll center top;
+	height:800px;
+}
+.pattern{
+	background:transparent url('../images/backgrounds/pattern.jpg') repeat-x scroll center top;
+	height:827px;
+}
+.pattern2{
+	background:transparent url('../images/backgrounds/pattern1.jpg') repeat-x scroll center top;
+	height:800px;
+}
+.pattern3{
+	background:transparent url('../images/backgrounds/pattern2.jpg') repeat-x scroll center top;
+	height:800px;
+}
+.pattern4{
+	background:transparent url('../images/backgrounds/pattern3.jpg') repeat-x scroll center top;
+	height:826px;
+}
+.square{
+	background:transparent url('../images/backgrounds/square.jpg') repeat-x scroll center top;
+	height:800px;
+}

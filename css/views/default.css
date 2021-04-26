@@ -1,0 +1,31 @@
+﻿#header .search .input-wrap
+{
+    width: 185px;
+}
+#header .search {
+    display: block;
+    margin-bottom: 5px;
+}
+.container-default-blocks
+{
+    padding-bottom: 30px;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.container-default-blocks > .block-uc, .container-default-blocks .block-uc-merge
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin-left: 0.5%;
+}
+.container-default-blocks .block-uc:after
+{
+    background: none;
+}
+.container-default-blocks .block-uc:first-child
+{
+    margin-left: 0;
+}

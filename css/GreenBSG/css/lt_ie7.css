@@ -1,0 +1,80 @@
+/**
+ * Fixing calculated width (auto)
+ *
+ * @bugfix
+ * @affected IE < 7
+ */
+#dcp__promostage form a,
+.tabnavigator li a {
+    width: 0;
+    white-space: nowrap;
+}
+
+
+/**
+ * Fixing tabnavigation overlapping the tabcontent
+ *
+ * @bugfix
+ * @affected IE < 7
+ */
+.tabnavigator {
+    margin-bottom: -1px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.slider .tabnavigator {
+    margin-bottom: 0;
+}
+
+
+/**
+ * Fixing disappearing content
+ *
+ * @bugfix
+ * @affected IE < 7
+ */
+.dcp__teaser .head {
+    width: 100%;
+}
+
+.dcp__teaser .head p {
+    margin-bottom: -10px;
+}
+
+
+/**
+ * Adjusting spacings
+ *
+ * @changerequest
+ * @affected IE < 7
+ */
+.dcp__section {
+    margin-top: 18px;
+}
+
+.tabnavigator {
+    margin-top: 14px;
+}
+
+
+/**
+ * Fixes whitespace in tab content
+ *
+ * @bugfix
+ * @affected IE < 7
+ */
+.slider .slide-content {
+    margin-bottom: -3px;
+}
+
+/**
+ * Fixes z-index problem for viewport
+ *
+ * @bugfix
+ * @affected IE < 7
+ */
+.tabnavigator {
+    position: static;
+}

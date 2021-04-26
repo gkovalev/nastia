@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+        <Author>AdvantShop.Net</Author>
+        <LastAuthor>AdvantShop.Net</LastAuthor>
+    </DocumentProperties>
+    <Styles>
+        <Style ss:ID="Default">
+            <Font ss:FontName="Tahoma" ss:Color="#000000" />
+            <Alignment ss:Vertical="Bottom" />
+        </Style>
+        <Style ss:ID="S01">
+            <Font ss:FontName="Tahoma" ss:Color="#000000" />
+            <Alignment ss:Vertical="Bottom" />
+            <NumberFormat ss:Format="General Date" />
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="Orders">
+        <Table ss:FullColumns="1" ss:FullRows="1">
+            <Column ss:Width="50" />
+            <Column ss:Width="80" />
+            <Column ss:Width="100" />
+            <Column ss:Width="130" />
+            <Column ss:Width="70" />
+            <Column ss:Width="150" />
+            <Column ss:Width="80" />
+            <Column ss:Width="80" />
+            <Column ss:Width="80" />
+            <Column ss:Width="80" />
+            <Column ss:Width="300" />
+            <Column ss:Width="300" />
+            <Column ss:Width="300" />
+            <Column ss:Width="100" />
+            <Column ss:Width="300" />
+            <Column ss:Width="300" />
+            <Column ss:Width="300" />
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">OrderID</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Status</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">OrderDate</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">FIO</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">CustomerIP</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">OrderedItemsArt</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Total</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Tax</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Cost</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Profit</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Payment</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Shipping</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Shipping Address</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Customer Phone</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Customer Comment</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Admin Comment</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">OrderedItems</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="Number">27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Отменён</Data>
+                </Cell>
+                <Cell ss:StyleID="S01">
+                    <Data ss:Type="DateTime">2013-02-05T14:28:00</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Лебедев Владимир</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">87.252.251.142</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">[0601918J21]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">1 545 000,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">1 545 000,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Безналичная оплата для юридических лиц</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Самовывоз - 0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Беларусь, Брест, Я.Купалы, 100</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Клиенту предложили дешевле.</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">[Аккумуляторная дрель-шуруповёрт GSR 12-2 + набор бит - 1pcs.]</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="Number">35</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Отменён</Data>
+                </Cell>
+                <Cell ss:StyleID="S01">
+                    <Data ss:Type="DateTime">2013-02-12T12:53:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Лебедев Владимир</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">87.252.251.142</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">[0601868100], [0601918J21], [0601070721], [0601217102], [0601218121], [0601473600], [06033A0722], [061125A400], [0611254768], [0611253803], [0603272208], [0601944302], [0601821800], [0601882103]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">21 480 000,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">21 480 000,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Безналичная оплата для юридических лиц</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Самовывоз - 0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Беларусь, Брест, Я.Купалы, 100</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Прошу выставить счет с учетом оптовых цен и условиях предоплаты. Можно на емейл lebedev2007@gmail.com</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">[Аккумуляторная дрель-шуруповёрт GSR 10,8-2-LI - 1pcs.], [Аккумуляторная дрель-шуруповёрт GSR 12-2 + набор бит - 1pcs.], [Виброшлифмашины GSS 23 AE - 1pcs.], [Ударная дрель GSB 13 RE - 1pcs.], [Ударная дрель GSB 1600 RE - 1pcs.], [Дрели GBM 10 RE - 1pcs.], [АКЦИЯ: Лобзиковая пила PST 670 в чемодане + ; пилки в ПОДАРОК! - 1pcs.], [Перфоратор с патроном SDS-plus GBH 2-20 D - 1pcs.], [Перфоратор с патроном SDS-plus GBH 2-26 DFR - 1pcs.], [Перфоратор с патроном SDS-plus GBH 2400 (аналог GBH 2-26 DRE) - 1pcs.], [Рубанки PHO 1 - 1pcs.], [Технический фен GHG 660 LCD + набор переходников (сопла) + кембрики - 1pcs.], [Угловые шлифмашины GWS 1000 - 1pcs.], [Угловые шлифмашины GWS 22-230 H - 1pcs.]</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="Number">49</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Отменён</Data>
+                </Cell>
+                <Cell ss:StyleID="S01">
+                    <Data ss:Type="DateTime">2013-02-26T13:58:50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Администратор Администратор</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">130.138.227.54</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">[2.607.001.508]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">28 500,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">28 500,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Наличными через кассу ЛЮБОГО БАНКА в Республике Беларусь</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Самовывоз - 0,00  BYR</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Россия, Москва, ул. Кремлевская</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">3453456</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TEST</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">[Насадка-бита Extra Hart PH 1, 25 mm - 1pcs.]</Data>
+                </Cell>
+            </Row>
+        </Table>
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <PageSetup>
+                <Layout Orientation="Landscape" />
+                <Header Margin="0.3" />
+                <Footer Margin="0.3" />
+                <PageMargins Bottom="0.4" Left="0.5" Right="0.5" Top="0.4" />
+            </PageSetup>
+            <Print>
+                <ValidPrinterInfo />
+                <FitHeight>1</FitHeight>
+                <FitWidth>1</FitWidth>
+                <Scale>100</Scale>
+            </Print>
+            <Selected />
+        </WorksheetOptions>
+    </Worksheet>
+</Workbook>

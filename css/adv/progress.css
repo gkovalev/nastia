@@ -1,0 +1,16 @@
+.progress{
+	position:absolute;
+	display:none;
+	background:#fff;
+	z-index:1000;
+	background:#fff url(../../images/ajax-loader.gif) no-repeat scroll center center;
+}
+#test, #test2{
+	background:red;
+	z-index:900;
+	position:relative;
+	height:500px;
+}
+#test2 {
+	background:green;
+}

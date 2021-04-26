@@ -1,0 +1,32 @@
+﻿.compare-wrap {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.compare-type-icon
+{
+    background: transparent url('../images/compare.png') no-repeat scroll 0 0;
+    height: 12px;
+    cursor: pointer;
+}
+.compare-type-icon .compare-checkbox
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 12px;
+    filter: alpha(opacity = 0);
+    opacity: 0;
+    cursor: pointer;
+}
+.compare-type-icon .compare-label {
+    display: none;
+}
+.compare-selected-type-icon {
+    background-position: 0 -18px;
+}
+.compare-animation
+{
+    position: absolute;
+    z-index: 5;
+}

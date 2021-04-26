@@ -1,0 +1,127 @@
+﻿.shop-Faqs {
+    vertical-align: top;
+    width: 64%;
+    float: left;
+}
+.shop-Faqs-wrap {
+    border: 1px #eaeaea solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.shop-Faqs-child-wrap {
+    margin: 15px 0 0 30px;
+}
+.shop-Faqs-rating, .shop-Faqs-form-rate {
+    display: inline-block;
+    min-width: 100px;
+    min-height: 20px;
+    position: relative;
+    vertical-align: middle;
+}
+.shop-Faqs-paging {
+    text-align: center;
+}
+#hint {
+    vertical-align: middle;
+    display: inline-block;
+}
+.shop-Faqs-rate {
+    font-style: italic;
+    display: inline-block;
+    vertical-align: middle;
+}
+.shop-Faqs-date {
+    color: #b1b1b1;
+}
+.shop-Faqs-text {
+    line-height: 1.2;
+}
+.shop-Faqs-row {
+    margin-bottom: 5px;
+}
+.shop-Faqs-name {
+    font-weight: bold;
+    color: #9e100f;
+    font-size: 110%;
+}
+.shop-Faqs-form-wrap {
+    vertical-align: top;
+    float: right;
+    width: 30%;
+    background: #f8f8f8;
+    padding:10px 25px 10px 10px;
+}
+.shop-Faqs-form-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 115%;
+}
+.shop-Faqs-form {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.shop-Faqs-form .shop-Faqs-form-row {
+    margin: 0 0 10px;
+    padding: 0;
+    position: relative;
+}
+.shop-Faqs-form-row label{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.input-wrap, .textarea-wrap {
+    width: 100%;
+}
+.shop-Faqs-li-error {
+    color: red;
+}
+.shop-Faqs-li-error .error-item {
+    margin-bottom: 10px;
+}
+.shop-Faqs-form-reply {
+    margin-top: 15px;
+    padding: 0 25px 0 0;
+}
+.shop-Faqs-form-input {
+    position: relative;
+}
+.shop-Faqs-paging a, .shop-Faqs-paging span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.shop-Faqs-key {
+    color: #C5C5C4;
+    font-family: Tahoma;
+    line-height: 12px;
+}
+.shop-Faqs-selected {
+    color: #737271;
+}
+.validelem-message {
+	background: #f7e7e6;
+	color: #b1140c;
+	font-style: italic;
+	font-family: Georgia;
+	font-size: 11px;
+	position: relative;
+	display: none;
+    border-radius: 0 0 4px 4px;
+    position: relative;
+}
+.validelem-message {
+    padding: 4px;
+}
+.validelem-icon-success {
+	background: transparent url('success.png') no-repeat scroll center center;
+}
+.validelem-icon-error {
+	background: transparent url('error.png') no-repeat scroll center center;
+}
+.validelem-icon {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
